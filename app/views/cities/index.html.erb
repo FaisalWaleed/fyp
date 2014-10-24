@@ -1,0 +1,5 @@
+
+<%= form_tag translate_cities_path,:method => :POST %>
+	<%= text_field_tag  :english %>
+	<%= submit_tag 'translate',:class => 'btn'%>
+	<%= EasyTranslate.translate('Hello, world', :to => :spanish) %>
