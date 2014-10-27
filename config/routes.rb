@@ -1,10 +1,11 @@
 Fyp::Application.routes.draw do
 
-  root :to => 'cities#show'
+  root :to => 'cities#index'
 
   resources :cities do
     collection do
       post 'translate'
+      get 'location'
     end
   end
 

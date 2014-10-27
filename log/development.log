@@ -10556,3 +10556,3599 @@ Served asset /cities.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 15:00:41 +0500
 Served asset /application.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-27 13:31:00 +0500
+Connecting to database specified by database.yml
+Processing by CitiesController#show as HTML
+  Rendered cities/show.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 222.5ms (Views: 222.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-27 13:31:08 +0500
+Processing by CitiesController#show as HTML
+  Rendered cities/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 11.1ms (Views: 10.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-27 13:31:08 +0500
+Served asset /cities.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-27 13:31:08 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-27 13:31:08 +0500
+Served asset /bootstrap.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-27 13:31:08 +0500
+Served asset /cities.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-27 13:31:08 +0500
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-27 13:31:08 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-27 13:31:08 +0500
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-27 13:31:08 +0500
+Served asset /application.js - 304 Not Modified (7ms)
+
+
+Started POST "/cities/translate" for 127.0.0.1 at 2014-10-27 13:31:23 +0500
+Processing by CitiesController#translate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O2MHm0sgC+ebjbjLRzVNb582vEAFpzBdeBkWdHw/lwg=", "text"=>{"english"=>"Lahore"}, "commit"=>"Translate"}
+  [1m[36mCity Load (17.3ms)[0m  [1mSELECT "cities".* FROM "cities" [0m
+  [1m[35mEXPLAIN (0.4ms)[0m  EXPLAIN SELECT "cities".* FROM "cities" 
+EXPLAIN for: SELECT "cities".* FROM "cities" 
+                        QUERY PLAN
+-----------------------------------------------------------
+ Seq Scan on cities  (cost=0.00..10.70 rows=70 width=1052)
+(1 row)
+
+Completed 500 Internal Server Error in 3659.2ms
+
+RestClient::BadRequest (400 Bad Request):
+  app/controllers/cities_controller.rb:31:in `new'
+  app/controllers/cities_controller.rb:31:in `translate'
+
+
+  Rendered /home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.5ms)
+  Rendered /home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.8ms)
+  Rendered /home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-27 13:36:09 +0500
+Processing by CitiesController#show as HTML
+  Rendered cities/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 9.9ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-27 13:36:09 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-27 13:36:09 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-27 13:36:09 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-27 13:36:09 +0500
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-27 13:36:09 +0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-27 13:36:09 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-27 13:36:09 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-27 13:36:09 +0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/cities/translate" for 127.0.0.1 at 2014-10-27 13:36:18 +0500
+Processing by CitiesController#translate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O2MHm0sgC+ebjbjLRzVNb582vEAFpzBdeBkWdHw/lwg=", "text"=>{"english"=>"Lahore"}, "commit"=>"Translate"}
+  [1m[36mCity Load (0.6ms)[0m  [1mSELECT "cities".* FROM "cities" [0m
+Completed 500 Internal Server Error in 3112.6ms
+
+RestClient::BadRequest (400 Bad Request):
+  app/controllers/cities_controller.rb:31:in `new'
+  app/controllers/cities_controller.rb:31:in `translate'
+
+
+  Rendered /home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-27 13:37:07 +0500
+Processing by CitiesController#show as HTML
+  Rendered cities/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 8.4ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-27 13:37:07 +0500
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-27 13:37:07 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-27 13:37:07 +0500
+Served asset /cities.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-27 13:37:07 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-27 13:37:07 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-27 13:37:07 +0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-27 13:37:07 +0500
+Served asset /cities.js - 304 Not Modified (37ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-27 13:37:07 +0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/cities/translate" for 127.0.0.1 at 2014-10-27 13:37:09 +0500
+Processing by CitiesController#translate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O2MHm0sgC+ebjbjLRzVNb582vEAFpzBdeBkWdHw/lwg=", "text"=>{"english"=>""}, "commit"=>"Translate"}
+Completed 500 Internal Server Error in 1522.1ms
+
+RestClient::BadRequest (400 Bad Request):
+  app/controllers/cities_controller.rb:31:in `new'
+  app/controllers/cities_controller.rb:31:in `translate'
+
+
+  Rendered /home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-27 13:46:25 +0500
+Processing by CitiesController#show as HTML
+  Rendered cities/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 6.9ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-27 13:46:25 +0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-27 13:46:25 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-27 13:46:25 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-27 13:46:25 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-27 13:46:25 +0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-27 13:46:25 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-27 13:46:25 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-27 13:46:25 +0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/cities/translate" for 127.0.0.1 at 2014-10-27 13:46:29 +0500
+Processing by CitiesController#translate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O2MHm0sgC+ebjbjLRzVNb582vEAFpzBdeBkWdHw/lwg=", "text"=>{"english"=>""}, "commit"=>"Translate"}
+Completed 500 Internal Server Error in 1.5ms
+
+NameError (uninitialized constant CitiesController::BingTranslator):
+  app/controllers/cities_controller.rb:31:in `translate'
+
+
+  Rendered /home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.2ms)
+
+
+Started GET "/cities/translate" for 127.0.0.1 at 2014-10-27 13:47:29 +0500
+Processing by CitiesController#show as HTML
+  Parameters: {"id"=>"translate"}
+  Rendered cities/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 6.8ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-27 13:47:29 +0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-27 13:47:29 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-27 13:47:29 +0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-27 13:47:29 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-27 13:47:29 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-27 13:47:29 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-27 13:47:29 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-27 13:47:29 +0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/cities/translate" for 127.0.0.1 at 2014-10-27 13:47:31 +0500
+Processing by CitiesController#translate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O2MHm0sgC+ebjbjLRzVNb582vEAFpzBdeBkWdHw/lwg=", "text"=>{"english"=>""}, "commit"=>"Translate"}
+Completed 500 Internal Server Error in 54.3ms
+
+LoadError (cannot load such file -- bing_translator):
+  app/controllers/cities_controller.rb:17:in `translate'
+
+
+  Rendered /home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.9ms)
+
+
+Started GET "/cities/translate" for 127.0.0.1 at 2014-10-27 13:48:42 +0500
+Connecting to database specified by database.yml
+Processing by CitiesController#show as HTML
+  Parameters: {"id"=>"translate"}
+  Rendered cities/show.html.erb within layouts/application (25.2ms)
+Completed 200 OK in 70.1ms (Views: 69.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-27 13:48:42 +0500
+Served asset /cities.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-27 13:48:42 +0500
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-27 13:48:42 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-27 13:48:42 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-27 13:48:42 +0500
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-27 13:48:42 +0500
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-27 13:48:42 +0500
+Served asset /cities.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-27 13:48:42 +0500
+Served asset /application.js - 304 Not Modified (41ms)
+
+
+Started POST "/cities/translate" for 127.0.0.1 at 2014-10-27 13:48:44 +0500
+Processing by CitiesController#translate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O2MHm0sgC+ebjbjLRzVNb582vEAFpzBdeBkWdHw/lwg=", "text"=>{"english"=>""}, "commit"=>"Translate"}
+Completed 500 Internal Server Error in 1977.5ms
+
+BingTranslator::AuthenticationException (invalid_client):
+  app/controllers/cities_controller.rb:34:in `translate'
+
+
+  Rendered /home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.6ms)
+  Rendered /home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.0ms)
+
+
+Started GET "/cities/translate" for 127.0.0.1 at 2014-10-27 13:58:07 +0500
+Processing by CitiesController#show as HTML
+  Parameters: {"id"=>"translate"}
+  Rendered cities/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 6.7ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-27 13:58:07 +0500
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-27 13:58:07 +0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-27 13:58:07 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-27 13:58:07 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-27 13:58:07 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-27 13:58:07 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-27 13:58:07 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-27 13:58:07 +0500
+Served asset /application.js - 304 Not Modified (32ms)
+
+
+Started POST "/cities/translate" for 127.0.0.1 at 2014-10-27 13:58:09 +0500
+Processing by CitiesController#translate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O2MHm0sgC+ebjbjLRzVNb582vEAFpzBdeBkWdHw/lwg=", "text"=>{"english"=>""}, "commit"=>"Translate"}
+  Rendered cities/translate.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 5561.6ms (Views: 11.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-27 13:58:14 +0500
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-27 13:58:14 +0500
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-27 13:58:14 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-27 13:58:14 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-27 13:58:14 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-27 13:58:14 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-27 13:58:14 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-27 13:58:14 +0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/cities/translate" for 127.0.0.1 at 2014-10-27 13:59:47 +0500
+Processing by CitiesController#show as HTML
+  Parameters: {"id"=>"translate"}
+  Rendered cities/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 32.3ms (Views: 32.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cities/translate" for 127.0.0.1 at 2014-10-27 13:59:48 +0500
+Processing by CitiesController#show as HTML
+  Parameters: {"id"=>"translate"}
+  Rendered cities/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 10.1ms (Views: 9.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-27 13:59:48 +0500
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-27 13:59:48 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-27 13:59:48 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-27 13:59:48 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-27 13:59:48 +0500
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-27 13:59:48 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-27 13:59:48 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-27 13:59:48 +0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/cities/translate" for 127.0.0.1 at 2014-10-27 13:59:56 +0500
+Processing by CitiesController#translate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O2MHm0sgC+ebjbjLRzVNb582vEAFpzBdeBkWdHw/lwg=", "text"=>{"english"=>"My office is in DHA"}, "commit"=>"Translate"}
+  Rendered cities/translate.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 6474.9ms (Views: 10.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-27 14:00:03 +0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-27 14:00:03 +0500
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-27 14:00:03 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-27 14:00:03 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-27 14:00:03 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-27 14:00:03 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-27 14:00:03 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-27 14:00:03 +0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/cities/translate" for 127.0.0.1 at 2014-10-27 14:00:14 +0500
+Processing by CitiesController#show as HTML
+  Parameters: {"id"=>"translate"}
+  Rendered cities/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 9.3ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cities/translate" for 127.0.0.1 at 2014-10-27 14:00:22 +0500
+Processing by CitiesController#translate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O2MHm0sgC+ebjbjLRzVNb582vEAFpzBdeBkWdHw/lwg=", "text"=>{"english"=>"Mine\r\n office is in DHA"}, "commit"=>"Translate"}
+  Rendered cities/translate.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 5623.7ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cities/translate" for 127.0.0.1 at 2014-10-27 14:00:28 +0500
+Processing by CitiesController#translate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O2MHm0sgC+ebjbjLRzVNb582vEAFpzBdeBkWdHw/lwg=", "text"=>{"english"=>"mine office is in dha"}, "commit"=>"Translate"}
+  Rendered cities/translate.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 4862.9ms (Views: 11.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-27 14:00:33 +0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-27 14:00:33 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-27 14:00:33 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-27 14:00:33 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-27 14:00:33 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-27 14:00:33 +0500
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-27 14:00:33 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-27 14:00:33 +0500
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started POST "/cities/translate" for 127.0.0.1 at 2014-10-27 15:32:06 +0500
+Connecting to database specified by database.yml
+Processing by CitiesController#translate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O2MHm0sgC+ebjbjLRzVNb582vEAFpzBdeBkWdHw/lwg=", "text"=>{"english"=>"mine office is in dha"}, "commit"=>"Translate"}
+Completed 500 Internal Server Error in 11985.7ms
+
+BingTranslator::Exception ((s:Client) TranslateApiException: Cannot find an active Azure Market Place Translator Subscription associated with the request credentials. : ID=0151.V2_Soap.Translate.42219220):
+  app/controllers/cities_controller.rb:34:in `translate'
+
+
+  Rendered /home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.7ms)
+
+
+Started GET "/cities/" for 127.0.0.1 at 2014-10-27 15:32:20 +0500
+Processing by CitiesController#index as HTML
+  Rendered cities/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 359.4ms (Views: 39.5ms | ActiveRecord: 207.2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-27 15:32:21 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (94ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-27 15:32:21 +0500
+Served asset /cities.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-27 15:32:21 +0500
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-27 15:32:21 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-27 15:32:21 +0500
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-27 15:32:21 +0500
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-27 15:32:21 +0500
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-27 15:32:21 +0500
+Served asset /cities.js - 304 Not Modified (1ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-27 15:35:26 +0500
+Processing by CitiesController#show as HTML
+  Rendered cities/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 6.6ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-27 15:35:26 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-27 15:35:26 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-27 15:35:26 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-27 15:35:26 +0500
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-27 15:35:26 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-27 15:35:26 +0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-27 15:35:26 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-27 15:35:26 +0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-27 15:36:05 +0500
+Processing by CitiesController#show as HTML
+  Rendered cities/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 8.1ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-27 15:36:05 +0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-27 15:36:05 +0500
+Served asset /cities.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-27 15:36:05 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-27 15:36:05 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-27 15:36:05 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-27 15:36:05 +0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-27 15:36:05 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-27 15:36:05 +0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-27 15:36:21 +0500
+Processing by CitiesController#show as HTML
+  Rendered cities/show.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 10.6ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-27 15:36:21 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-27 15:36:21 +0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-27 15:36:21 +0500
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-27 15:36:21 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-27 15:36:21 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-27 15:36:21 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-27 15:36:21 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-27 15:36:21 +0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-27 15:36:50 +0500
+Processing by CitiesController#show as HTML
+  Rendered cities/show.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 11.6ms (Views: 11.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-27 15:36:50 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-27 15:36:50 +0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-27 15:36:50 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-27 15:36:50 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-27 15:36:50 +0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-27 15:36:50 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-27 15:36:50 +0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-27 15:36:50 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-27 15:37:06 +0500
+Processing by CitiesController#show as HTML
+  Rendered cities/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 10.6ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-27 15:37:06 +0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-27 15:37:06 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-27 15:37:06 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-27 15:37:06 +0500
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-27 15:37:06 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-27 15:37:06 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-27 15:37:06 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-27 15:37:06 +0500
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-27 15:37:54 +0500
+Processing by CitiesController#show as HTML
+  Rendered cities/show.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 44.0ms (Views: 43.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-27 15:37:54 +0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-27 15:37:54 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-27 15:37:54 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-27 15:37:54 +0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-27 15:37:54 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-27 15:37:54 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-27 15:37:54 +0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-27 15:37:54 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-27 15:38:36 +0500
+Processing by CitiesController#show as HTML
+  Rendered cities/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 7.8ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-27 15:38:36 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-27 15:38:36 +0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-27 15:38:36 +0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-27 15:38:36 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-27 15:38:36 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-27 15:38:36 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-27 15:38:36 +0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-27 15:38:36 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started POST "/cities/translate" for 127.0.0.1 at 2014-10-27 15:38:52 +0500
+Processing by CitiesController#translate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O2MHm0sgC+ebjbjLRzVNb582vEAFpzBdeBkWdHw/lwg=", "text"=>{"english"=>"Lahore is best"}, "commit"=>"Translate"}
+Completed 500 Internal Server Error in 21472.8ms
+
+BingTranslator::Exception ((s:Client) TranslateApiException: Cannot find an active Azure Market Place Translator Subscription associated with the request credentials. : ID=0151.V2_Soap.Translate.42221BD4):
+  app/controllers/cities_controller.rb:34:in `translate'
+
+
+  Rendered /home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.0ms)
+
+
+Started GET "/cities/location" for 127.0.0.1 at 2014-10-27 15:39:53 +0500
+Processing by CitiesController#show as HTML
+  Parameters: {"id"=>"location"}
+  Rendered cities/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 4.8ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-27 15:39:53 +0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-27 15:39:53 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-27 15:39:53 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-27 15:39:53 +0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-27 15:39:53 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-27 15:39:53 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-27 15:39:53 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-27 15:39:53 +0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/cities/location" for 127.0.0.1 at 2014-10-27 15:39:58 +0500
+Processing by CitiesController#show as HTML
+  Parameters: {"id"=>"location"}
+  Rendered cities/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 8.7ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-27 15:39:58 +0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-27 15:39:58 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-27 15:39:58 +0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-27 15:39:58 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-27 15:39:58 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-27 15:39:58 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-27 15:39:58 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-27 15:39:58 +0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/cities/translate" for 127.0.0.1 at 2014-10-27 15:40:09 +0500
+Processing by CitiesController#translate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O2MHm0sgC+ebjbjLRzVNb582vEAFpzBdeBkWdHw/lwg=", "text"=>{"english"=>""}, "commit"=>"Translate"}
+Completed 500 Internal Server Error in 7851.7ms
+
+BingTranslator::Exception ((s:Client) TranslateApiException: Cannot find an active Azure Market Place Translator Subscription associated with the request credentials. : ID=0151.V2_Soap.Translate.42223013):
+  app/controllers/cities_controller.rb:34:in `translate'
+
+
+  Rendered /home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.0ms)
+
+
+Started GET "/cities/location" for 127.0.0.1 at 2014-10-27 15:43:22 +0500
+Processing by CitiesController#show as HTML
+  Parameters: {"id"=>"location"}
+  Rendered cities/show.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 11.0ms (Views: 10.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-27 15:43:22 +0500
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-27 15:43:22 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-27 15:43:22 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-27 15:43:22 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-27 15:43:22 +0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-27 15:43:22 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-27 15:43:22 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-27 15:43:22 +0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/cities/location" for 127.0.0.1 at 2014-10-27 15:43:31 +0500
+Processing by CitiesController#show as HTML
+  Parameters: {"id"=>"location"}
+  Rendered cities/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 9.6ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-27 15:43:31 +0500
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-27 15:43:31 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-27 15:43:31 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-27 15:43:31 +0500
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-27 15:43:31 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-27 15:43:31 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-27 15:43:31 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-27 15:43:31 +0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/cities/location" for 127.0.0.1 at 2014-10-27 15:43:59 +0500
+Processing by CitiesController#show as HTML
+  Parameters: {"id"=>"location"}
+  Rendered cities/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 37.8ms (Views: 37.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-27 15:44:00 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-27 15:44:00 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-27 15:44:00 +0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-27 15:44:00 +0500
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-27 15:44:00 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-27 15:44:00 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-27 15:44:00 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-27 15:44:00 +0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/cities/location" for 127.0.0.1 at 2014-10-27 15:44:05 +0500
+Processing by CitiesController#show as HTML
+  Parameters: {"id"=>"location"}
+  Rendered cities/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 9.8ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-27 15:44:05 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-27 15:44:05 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-27 15:44:05 +0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-27 15:44:05 +0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-27 15:44:05 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-27 15:44:05 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-27 15:44:05 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-27 15:44:05 +0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/cities/location" for 127.0.0.1 at 2014-10-27 15:45:11 +0500
+Processing by CitiesController#show as HTML
+  Parameters: {"id"=>"location"}
+  Rendered cities/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 7.3ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-27 15:45:11 +0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-27 15:45:11 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-27 15:45:11 +0500
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-27 15:45:11 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-27 15:45:11 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-27 15:45:11 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-27 15:45:11 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-27 15:45:11 +0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-27 15:45:21 +0500
+Processing by CitiesController#show as HTML
+  Rendered cities/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 6.4ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-27 15:45:21 +0500
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-27 15:45:21 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-27 15:45:21 +0500
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-27 15:45:21 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-27 15:45:21 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-27 15:45:21 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-27 15:45:21 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-27 15:45:21 +0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/cities/location" for 127.0.0.1 at 2014-10-27 15:45:27 +0500
+Processing by CitiesController#show as HTML
+  Parameters: {"id"=>"location"}
+  Rendered cities/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 9.5ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-27 15:45:27 +0500
+Served asset /cities.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-27 15:45:27 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-27 15:45:27 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-27 15:45:27 +0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-27 15:45:27 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-27 15:45:27 +0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-27 15:45:27 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-27 15:45:27 +0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/cities/location" for 127.0.0.1 at 2014-10-27 15:46:23 +0500
+Processing by CitiesController#show as HTML
+  Parameters: {"id"=>"location"}
+  Rendered cities/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 8.5ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-27 15:46:23 +0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-27 15:46:24 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-27 15:46:24 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-27 15:46:24 +0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-27 15:46:24 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-27 15:46:24 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-27 15:46:24 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-27 15:46:24 +0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/cities/location" for 127.0.0.1 at 2014-10-27 15:46:27 +0500
+Processing by CitiesController#show as HTML
+  Parameters: {"id"=>"location"}
+  Rendered cities/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 9.3ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-27 15:46:27 +0500
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-27 15:46:27 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-27 15:46:27 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-27 15:46:27 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-27 15:46:27 +0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-27 15:46:27 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-27 15:46:27 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-27 15:46:27 +0500
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/cities/location" for 127.0.0.1 at 2014-10-27 15:46:27 +0500
+Processing by CitiesController#show as HTML
+  Parameters: {"id"=>"location"}
+  Rendered cities/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 7.6ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-27 15:46:28 +0500
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-27 15:46:28 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-27 15:46:28 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-27 15:46:28 +0500
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-27 15:46:28 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-27 15:46:28 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-27 15:46:28 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-27 15:46:28 +0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/cities/location" for 127.0.0.1 at 2014-10-27 15:46:29 +0500
+Processing by CitiesController#show as HTML
+  Parameters: {"id"=>"location"}
+  Rendered cities/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 8.1ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-27 15:46:29 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-27 15:46:29 +0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-27 15:46:29 +0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-27 15:46:29 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-27 15:46:29 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-27 15:46:29 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-27 15:46:29 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-27 15:46:29 +0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/cities/location" for 127.0.0.1 at 2014-10-27 15:48:05 +0500
+Processing by CitiesController#show as HTML
+  Parameters: {"id"=>"location"}
+  Rendered cities/show.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 11.6ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-27 15:48:05 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-27 15:48:05 +0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-27 15:48:05 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-27 15:48:05 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-27 15:48:05 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-27 15:48:05 +0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-27 15:48:05 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-27 15:48:05 +0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-27 15:48:11 +0500
+Processing by CitiesController#show as HTML
+  Rendered cities/show.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 10.9ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-27 15:48:11 +0500
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-27 15:48:11 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-27 15:48:11 +0500
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-27 15:48:11 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-27 15:48:11 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-27 15:48:11 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-27 15:48:11 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-27 15:48:11 +0500
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/cities/location" for 127.0.0.1 at 2014-10-27 15:48:21 +0500
+Processing by CitiesController#show as HTML
+  Parameters: {"id"=>"location"}
+  Rendered cities/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 7.3ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-27 15:48:21 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-27 15:48:21 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-27 15:48:21 +0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-27 15:48:21 +0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-27 15:48:21 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-27 15:48:21 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-27 15:48:21 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-27 15:48:21 +0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/cities/location" for 127.0.0.1 at 2014-10-27 15:49:13 +0500
+Processing by CitiesController#show as HTML
+  Parameters: {"id"=>"location"}
+  Rendered cities/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 6.1ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-27 15:49:13 +0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-27 15:49:13 +0500
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-27 15:49:13 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-27 15:49:13 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-27 15:49:13 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-27 15:49:13 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-27 15:49:13 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-27 15:49:13 +0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-27 15:50:44 +0500
+Processing by CitiesController#index as HTML
+  Rendered cities/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 12.7ms (Views: 6.0ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-27 15:50:44 +0500
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-27 15:50:44 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-27 15:50:44 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-27 15:50:44 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-27 15:50:44 +0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-27 15:50:44 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-27 15:50:44 +0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-27 15:50:44 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/cities/location" for 127.0.0.1 at 2014-10-27 15:50:52 +0500
+Processing by CitiesController#show as HTML
+  Parameters: {"id"=>"location"}
+  Rendered cities/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 10.1ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-27 15:50:52 +0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-27 15:50:52 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-27 15:50:52 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-27 15:50:52 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-27 15:50:52 +0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-27 15:50:52 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-27 15:50:52 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-27 15:50:52 +0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/cities/1" for 127.0.0.1 at 2014-10-27 15:51:20 +0500
+Processing by CitiesController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendered cities/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 5.4ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-27 15:51:20 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-27 15:51:20 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-27 15:51:20 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-27 15:51:20 +0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-27 15:51:20 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-27 15:51:20 +0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-27 15:51:20 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-27 15:51:20 +0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/cities/translate" for 127.0.0.1 at 2014-10-27 15:51:20 +0500
+Processing by CitiesController#show as HTML
+  Parameters: {"id"=>"translate"}
+  Rendered cities/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 7.1ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-27 15:51:20 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-27 15:51:20 +0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-27 15:51:20 +0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-27 15:51:20 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-27 15:51:20 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-27 15:51:20 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-27 15:51:20 +0500
+Served asset /cities.js - 304 Not Modified (30ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-27 15:51:21 +0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/cities/1/location" for 127.0.0.1 at 2014-10-27 15:51:30 +0500
+
+ActionController::RoutingError (No route matches [GET] "/cities/1/location"):
+  actionpack (3.2.17) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.17) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.17) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.17) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.17) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.17) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.17) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.17) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.17) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.17) lib/rails/engine.rb:484:in `call'
+  railties (3.2.17) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.17) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/jawad/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/jawad/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/jawad/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/cities/1/cities" for 127.0.0.1 at 2014-10-27 15:51:37 +0500
+
+ActionController::RoutingError (No route matches [GET] "/cities/1/cities"):
+  actionpack (3.2.17) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.17) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.17) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.17) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.17) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.17) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.17) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.17) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.17) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.17) lib/rails/engine.rb:484:in `call'
+  railties (3.2.17) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.17) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/jawad/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/jawad/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/jawad/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/cities/1/city" for 127.0.0.1 at 2014-10-27 15:51:42 +0500
+
+ActionController::RoutingError (No route matches [GET] "/cities/1/city"):
+  actionpack (3.2.17) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.17) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.17) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.17) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.17) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.17) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.17) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.17) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.17) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.17) lib/rails/engine.rb:484:in `call'
+  railties (3.2.17) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.17) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/jawad/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/jawad/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/jawad/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/cities/1" for 127.0.0.1 at 2014-10-27 15:52:43 +0500
+Processing by CitiesController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendered cities/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 6.7ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-27 15:52:43 +0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-27 15:52:43 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-27 15:52:43 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-27 15:52:43 +0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-27 15:52:43 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-27 15:52:43 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-27 15:52:43 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-27 15:52:43 +0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-27 15:52:44 +0500
+Processing by CitiesController#index as HTML
+  Rendered cities/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 8.0ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-27 15:52:44 +0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-27 15:52:44 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-27 15:52:44 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-27 15:52:44 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-27 15:52:44 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-27 15:52:44 +0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-27 15:52:44 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-27 15:52:44 +0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-27 15:53:21 +0500
+Processing by CitiesController#index as HTML
+  Rendered cities/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 6.7ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-27 15:53:21 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-27 15:53:21 +0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-27 15:53:21 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-27 15:53:21 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-27 15:53:21 +0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-27 15:53:21 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-27 15:53:21 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-27 15:53:21 +0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/cities/location" for 127.0.0.1 at 2014-10-27 15:53:27 +0500
+Processing by CitiesController#show as HTML
+  Parameters: {"id"=>"location"}
+  Rendered cities/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 7.2ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-27 15:53:27 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-27 15:53:27 +0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-27 15:53:27 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-27 15:53:27 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-27 15:53:27 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-27 15:53:27 +0500
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-27 15:53:27 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-27 15:53:27 +0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/cities/location" for 127.0.0.1 at 2014-10-27 15:53:28 +0500
+Processing by CitiesController#show as HTML
+  Parameters: {"id"=>"location"}
+  Rendered cities/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 38.6ms (Views: 38.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-27 15:53:28 +0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-27 15:53:28 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-27 15:53:28 +0500
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-27 15:53:28 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-27 15:53:28 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-27 15:53:28 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-27 15:53:28 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-27 15:53:28 +0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/cities/location" for 127.0.0.1 at 2014-10-27 15:53:28 +0500
+Processing by CitiesController#show as HTML
+  Parameters: {"id"=>"location"}
+  Rendered cities/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 5.9ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-27 15:53:29 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-27 15:53:29 +0500
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-27 15:53:29 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-27 15:53:29 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-27 15:53:29 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-27 15:53:29 +0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-27 15:53:29 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-27 15:53:29 +0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/cities/location" for 127.0.0.1 at 2014-10-27 15:53:40 +0500
+Processing by CitiesController#show as HTML
+  Parameters: {"id"=>"location"}
+  Rendered cities/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 7.6ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-27 15:53:40 +0500
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-27 15:53:40 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-27 15:53:40 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-27 15:53:40 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-27 15:53:40 +0500
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-27 15:53:40 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-27 15:53:40 +0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-27 15:53:40 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/cities/location" for 127.0.0.1 at 2014-10-27 15:54:33 +0500
+Processing by CitiesController#show as HTML
+  Parameters: {"id"=>"location"}
+  Rendered cities/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 9.5ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-27 15:54:33 +0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-27 15:54:33 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-27 15:54:33 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-27 15:54:33 +0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-27 15:54:33 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-27 15:54:33 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-27 15:54:33 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-27 15:54:33 +0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/cities/location" for 127.0.0.1 at 2014-10-27 15:54:34 +0500
+Processing by CitiesController#show as HTML
+  Parameters: {"id"=>"location"}
+  Rendered cities/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 6.7ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-27 15:54:34 +0500
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-27 15:54:34 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-27 15:54:34 +0500
+Served asset /cities.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-27 15:54:34 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-27 15:54:34 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-27 15:54:34 +0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-27 15:54:34 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-27 15:54:34 +0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/cities/location" for 127.0.0.1 at 2014-10-27 15:54:39 +0500
+Processing by CitiesController#show as HTML
+  Parameters: {"id"=>"location"}
+  Rendered cities/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 36.8ms (Views: 36.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-27 15:54:39 +0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-27 15:54:39 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-27 15:54:39 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-27 15:54:39 +0500
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-27 15:54:39 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-27 15:54:39 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-27 15:54:39 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-27 15:54:39 +0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/cities/location" for 127.0.0.1 at 2014-10-27 15:54:39 +0500
+Processing by CitiesController#show as HTML
+  Parameters: {"id"=>"location"}
+  Rendered cities/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 7.4ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-27 15:54:39 +0500
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-27 15:54:39 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-27 15:54:39 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-27 15:54:39 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-27 15:54:39 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-27 15:54:39 +0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-27 15:54:39 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-27 15:54:39 +0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/cities/translate" for 127.0.0.1 at 2014-10-27 15:54:40 +0500
+Processing by CitiesController#translate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O2MHm0sgC+ebjbjLRzVNb582vEAFpzBdeBkWdHw/lwg=", "text"=>{"english"=>""}, "commit"=>"Translate"}
+Completed 500 Internal Server Error in 7411.0ms
+
+BingTranslator::Exception ((s:Client) TranslateApiException: Cannot find an active Azure Market Place Translator Subscription associated with the request credentials. : ID=0759.V2_Soap.Translate.4242C165):
+  app/controllers/cities_controller.rb:30:in `translate'
+
+
+  Rendered /home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.8ms)
+
+
+Started GET "/cities/location" for 127.0.0.1 at 2014-10-27 15:54:48 +0500
+Processing by CitiesController#show as HTML
+  Parameters: {"id"=>"location"}
+  Rendered cities/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 10.4ms (Views: 10.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-27 15:54:48 +0500
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-27 15:54:48 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-27 15:54:48 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-27 15:54:48 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-27 15:54:48 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-27 15:54:48 +0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-27 15:54:48 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-27 15:54:48 +0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/cities/location" for 127.0.0.1 at 2014-10-27 15:54:52 +0500
+Processing by CitiesController#show as HTML
+  Parameters: {"id"=>"location"}
+  Rendered cities/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 39.1ms (Views: 38.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-27 15:54:52 +0500
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-27 15:54:52 +0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-27 15:54:52 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-27 15:54:52 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-27 15:54:52 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-27 15:54:52 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-27 15:54:52 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-27 15:54:52 +0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/cities/translate" for 127.0.0.1 at 2014-10-27 15:54:53 +0500
+Processing by CitiesController#translate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O2MHm0sgC+ebjbjLRzVNb582vEAFpzBdeBkWdHw/lwg=", "text"=>{"english"=>""}, "commit"=>"Translate"}
+  Rendered cities/translate.html.erb within layouts/application (96.7ms)
+Completed 500 Internal Server Error in 6643.2ms
+
+ActionView::Template::Error (undefined method `html_safe' for nil:NilClass):
+    11:     <div class="col-sm-6 col-md-4 col-md-offset-4">
+    12:       <h1 class="text-center login-title">The highlighted text is as follow</h1><br><br>
+    13:       <div class="account-wall">
+    14: 				<p> <%= @spanish.html_safe %> </p>
+    15: 
+    16: 			</div>
+    17: 		</div>
+  app/views/cities/translate.html.erb:14:in `_app_views_cities_translate_html_erb___2037449289293626617_70352441913900'
+
+
+  Rendered /home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.5ms)
+
+
+Started GET "/cities/location" for 127.0.0.1 at 2014-10-27 15:56:39 +0500
+Processing by CitiesController#show as HTML
+  Parameters: {"id"=>"location"}
+  Rendered cities/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 9.6ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-27 15:56:39 +0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-27 15:56:39 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-27 15:56:39 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-27 15:56:39 +0500
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-27 15:56:39 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-27 15:56:39 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-27 15:56:39 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-27 15:56:39 +0500
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/cities/location" for 127.0.0.1 at 2014-10-27 15:56:43 +0500
+Processing by CitiesController#show as HTML
+  Parameters: {"id"=>"location"}
+  Rendered cities/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 6.6ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-27 15:56:43 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-27 15:56:43 +0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-27 15:56:43 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-27 15:56:43 +0500
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-27 15:56:43 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-27 15:56:43 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-27 15:56:43 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-27 15:56:43 +0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/cities/location" for 127.0.0.1 at 2014-10-27 15:57:44 +0500
+Connecting to database specified by database.yml
+Processing by CitiesController#show as HTML
+  Parameters: {"id"=>"location"}
+  Rendered cities/show.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 43.4ms (Views: 43.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-27 15:57:45 +0500
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-27 15:57:45 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-27 15:57:45 +0500
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-27 15:57:45 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-27 15:57:45 +0500
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-27 15:57:45 +0500
+Served asset /cities.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-27 15:57:45 +0500
+Served asset /cities.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-27 15:57:45 +0500
+Served asset /application.js - 304 Not Modified (46ms)
+
+
+Started GET "/cities/location" for 127.0.0.1 at 2014-10-27 15:57:48 +0500
+Processing by CitiesController#show as HTML
+  Parameters: {"id"=>"location"}
+  Rendered cities/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 9.1ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-27 15:57:48 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-27 15:57:48 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-27 15:57:48 +0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-27 15:57:48 +0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-27 15:57:48 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-27 15:57:48 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-27 15:57:48 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-27 15:57:48 +0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/cities" for 127.0.0.1 at 2014-10-27 15:57:52 +0500
+Processing by CitiesController#index as HTML
+  Rendered cities/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 97.1ms (Views: 7.4ms | ActiveRecord: 34.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-27 15:57:53 +0500
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-27 15:57:53 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-27 15:57:53 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-27 15:57:53 +0500
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-27 15:57:53 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-27 15:57:53 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-27 15:57:53 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-27 15:57:53 +0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/cities" for 127.0.0.1 at 2014-10-27 15:58:09 +0500
+Processing by CitiesController#index as HTML
+  Rendered cities/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 8.8ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-27 15:58:09 +0500
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-27 15:58:09 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-27 15:58:09 +0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-27 15:58:09 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-27 15:58:09 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-27 15:58:09 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-27 15:58:09 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-27 15:58:09 +0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-27 15:58:13 +0500
+Processing by CitiesController#index as HTML
+  Rendered cities/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 10.7ms (Views: 10.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-27 15:58:13 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-27 15:58:13 +0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-27 15:58:13 +0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-27 15:58:13 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-27 15:58:13 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-27 15:58:13 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-27 15:58:13 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-27 15:58:13 +0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-27 15:59:05 +0500
+Processing by CitiesController#index as HTML
+  Rendered cities/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 9.6ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-27 15:59:05 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-27 15:59:05 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-27 15:59:05 +0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-27 15:59:05 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-27 15:59:05 +0500
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-27 15:59:05 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-27 15:59:05 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-27 15:59:05 +0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-27 15:59:16 +0500
+Processing by CitiesController#index as HTML
+  Rendered cities/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 11.4ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-27 15:59:16 +0500
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-27 15:59:16 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-27 15:59:16 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-27 15:59:16 +0500
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-27 15:59:16 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-27 15:59:16 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-27 15:59:16 +0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-27 15:59:16 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started POST "/cities/location" for 127.0.0.1 at 2014-10-27 15:59:19 +0500
+Processing by CitiesController#location as HTML
+  Parameters: {"authenticity_token"=>"O2MHm0sgC+ebjbjLRzVNb582vEAFpzBdeBkWdHw/lwg="}
+  [1m[36mCity Load (16.0ms)[0m  [1mSELECT "cities".* FROM "cities" [0m
+Completed 500 Internal Server Error in 17.5ms
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/cities_controller.rb:42:in `location'
+
+
+  Rendered /home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.7ms)
+  Rendered /home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.3ms)
+
+
+Started POST "/cities/location" for 127.0.0.1 at 2014-10-27 15:59:29 +0500
+Processing by CitiesController#location as HTML
+  Parameters: {"authenticity_token"=>"O2MHm0sgC+ebjbjLRzVNb582vEAFpzBdeBkWdHw/lwg="}
+  [1m[35mCity Load (0.3ms)[0m  SELECT "cities".* FROM "cities" 
+Completed 500 Internal Server Error in 2.5ms
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/cities_controller.rb:42:in `location'
+
+
+  Rendered /home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-27 16:06:57 +0500
+Processing by CitiesController#index as HTML
+  Rendered cities/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 10.6ms (Views: 10.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-27 16:06:57 +0500
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-27 16:06:57 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-27 16:06:57 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-27 16:06:57 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-27 16:06:57 +0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-27 16:06:57 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-27 16:06:57 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-27 16:06:57 +0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-27 16:07:01 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-27 16:07:01 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-27 16:07:01 +0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-27 16:09:36 +0500
+Processing by CitiesController#index as HTML
+ERROR: compiling _app_views_cities_index_html_erb__3602974981898053768_70137554747020 RAISED /home/jawad/git_fyp/fyp/app/views/cities/index.html.erb:20: syntax error, unexpected '<', expecting ')'
+...cation", location_cities_path(<script> document.getElementBy...
+...                               ^
+/home/jawad/git_fyp/fyp/app/views/cities/index.html.erb:21: unknown regexp options - td
+unmatched close parenthesis: /script>), :method => :POST, :class => 'btn btn-success' );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('								</
+/home/jawad/git_fyp/fyp/app/views/cities/index.html.erb:22: syntax error, unexpected '<'
+								<td></td><td></td>
+								 ^
+/home/jawad/git_fyp/fyp/app/views/cities/index.html.erb:22: unknown regexp options - td
+/home/jawad/git_fyp/fyp/app/views/cities/index.html.erb:24: syntax error, unexpected '<'
+							</tr>
+							 ^
+/home/jawad/git_fyp/fyp/app/views/cities/index.html.erb:25: unknown regexp options - dv
+/home/jawad/git_fyp/fyp/app/views/cities/index.html.erb:26: syntax error, unexpected '<'
+			</div>
+			 ^
+/home/jawad/git_fyp/fyp/app/views/cities/index.html.erb:27: unknown regexp options - dv
+/home/jawad/git_fyp/fyp/app/views/cities/index.html.erb:28: syntax error, unexpected '<'
+	</div>
+	 ^
+/home/jawad/git_fyp/fyp/app/views/cities/index.html.erb:29: unknown regexp options - dv
+/home/jawad/git_fyp/fyp/app/views/cities/index.html.erb:29: unterminated string meets end of file
+/home/jawad/git_fyp/fyp/app/views/cities/index.html.erb:29: syntax error, unexpected $end, expecting ')'
+Function body:           def _app_views_cities_index_html_erb__3602974981898053768_70137554747020(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "cities/index";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_concat('<div class="container">  
+  <div class="row">
+    <div class="col-sm-6 col-md-4 col-md-offset-4">
+      <h1 class="text-center login-title">Highlighting the Locations</h1><br><br>
+      <div class="account-wall">
+				');@output_buffer.append= ( form_tag translate_cities_path,:method => :POST );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('					<div style = \'width:500px;\'>
+						<table>
+							<tr>
+								<td>
+									');@output_buffer.append= ( text_area :text, :english, rows: 5, cols: 50, :class => 'form-control');@output_buffer.safe_concat(' 
+');@output_buffer.safe_concat('								</td>
+							</tr>
+							<tr>
+								<td></td><td></td>
+								<td>
+									');@output_buffer.append= ( submit_tag 'Translate',:class => 'btn btn-primary ');@output_buffer.safe_concat('
+');@output_buffer.safe_concat('								</td>
+								<td>
+									');@output_buffer.append= ( link_to "Location", location_cities_path(<script> document.getElementById('text_english').text </script>), :method => :POST, :class => 'btn btn-success' );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('								</td>
+								<td></td><td></td>
+								
+							</tr>
+					</div>
+			</div>
+		</div>
+	</div>
+</div>');@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_view/template.rb:297:in `module_eval'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_view/template.rb:297:in `compile'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_view/template.rb:244:in `block in compile!'
+<internal:prelude>:10:in `synchronize'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_view/template.rb:232:in `compile!'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_view/template.rb:144:in `block in render'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/activesupport-3.2.17/lib/active_support/notifications.rb:125:in `instrument'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_view/template.rb:143:in `render'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/activesupport-3.2.17/lib/active_support/notifications.rb:123:in `block in instrument'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/activesupport-3.2.17/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/activesupport-3.2.17/lib/active_support/notifications.rb:123:in `instrument'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_view/renderer/template_renderer.rb:18:in `render'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_view/renderer/renderer.rb:17:in `render'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/abstract_controller/rendering.rb:110:in `_render_template'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/abstract_controller/rendering.rb:88:in `render'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_controller/metal/rendering.rb:16:in `render'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/activesupport-3.2.17/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/home/jawad/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/activesupport-3.2.17/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/activerecord-3.2.17/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/abstract_controller/base.rb:167:in `process_action'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/activesupport-3.2.17/lib/active_support/callbacks.rb:414:in `_run__1901534119743637030__process_action__4425294606976026087__callbacks'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/activesupport-3.2.17/lib/active_support/callbacks.rb:405:in `__run_callback'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/activesupport-3.2.17/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/activesupport-3.2.17/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/activesupport-3.2.17/lib/active_support/notifications.rb:123:in `block in instrument'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/activesupport-3.2.17/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/activesupport-3.2.17/lib/active_support/notifications.rb:123:in `instrument'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/activerecord-3.2.17/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/abstract_controller/base.rb:121:in `process'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/abstract_controller/rendering.rb:45:in `process'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_controller/metal.rb:203:in `dispatch'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_controller/metal.rb:246:in `block in action'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/routing/route_set.rb:73:in `call'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/routing/route_set.rb:36:in `call'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/journey-1.0.4/lib/journey/router.rb:68:in `block in call'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/journey-1.0.4/lib/journey/router.rb:56:in `each'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/journey-1.0.4/lib/journey/router.rb:56:in `call'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/routing/route_set.rb:608:in `call'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/rack-1.4.5/lib/rack/etag.rb:23:in `call'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/rack-1.4.5/lib/rack/conditionalget.rb:25:in `call'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/head.rb:14:in `call'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/flash.rb:242:in `call'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/rack-1.4.5/lib/rack/session/abstract/id.rb:210:in `context'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/rack-1.4.5/lib/rack/session/abstract/id.rb:205:in `call'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/cookies.rb:341:in `call'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/activerecord-3.2.17/lib/active_record/query_cache.rb:64:in `call'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/activerecord-3.2.17/lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/activesupport-3.2.17/lib/active_support/callbacks.rb:405:in `_run__1769905866733079376__call__3004172704832390526__callbacks'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/activesupport-3.2.17/lib/active_support/callbacks.rb:405:in `__run_callback'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/activesupport-3.2.17/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/activesupport-3.2.17/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/reloader.rb:65:in `call'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/railties-3.2.17/lib/rails/rack/logger.rb:32:in `call_app'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/railties-3.2.17/lib/rails/rack/logger.rb:16:in `block in call'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/activesupport-3.2.17/lib/active_support/tagged_logging.rb:22:in `tagged'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/railties-3.2.17/lib/rails/rack/logger.rb:16:in `call'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/rack-1.4.5/lib/rack/methodoverride.rb:21:in `call'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/rack-1.4.5/lib/rack/runtime.rb:17:in `call'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/activesupport-3.2.17/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/rack-1.4.5/lib/rack/lock.rb:15:in `call'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/static.rb:63:in `call'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/railties-3.2.17/lib/rails/engine.rb:484:in `call'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/railties-3.2.17/lib/rails/application.rb:231:in `call'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/rack-1.4.5/lib/rack/content_length.rb:14:in `call'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/railties-3.2.17/lib/rails/rack/log_tailer.rb:17:in `call'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/rack-1.4.5/lib/rack/handler/webrick.rb:59:in `service'
+/home/jawad/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+/home/jawad/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+/home/jawad/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+  Rendered cities/index.html.erb within layouts/application (14.5ms)
+Completed 500 Internal Server Error in 16.9ms
+
+ActionView::Template::Error (/home/jawad/git_fyp/fyp/app/views/cities/index.html.erb:20: syntax error, unexpected '<', expecting ')'
+...cation", location_cities_path(<script> document.getElementBy...
+...                               ^
+/home/jawad/git_fyp/fyp/app/views/cities/index.html.erb:21: unknown regexp options - td
+unmatched close parenthesis: /script>), :method => :POST, :class => 'btn btn-success' );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('								</
+/home/jawad/git_fyp/fyp/app/views/cities/index.html.erb:22: syntax error, unexpected '<'
+								<td></td><td></td>
+								 ^
+/home/jawad/git_fyp/fyp/app/views/cities/index.html.erb:22: unknown regexp options - td
+/home/jawad/git_fyp/fyp/app/views/cities/index.html.erb:24: syntax error, unexpected '<'
+							</tr>
+							 ^
+/home/jawad/git_fyp/fyp/app/views/cities/index.html.erb:25: unknown regexp options - dv
+/home/jawad/git_fyp/fyp/app/views/cities/index.html.erb:26: syntax error, unexpected '<'
+			</div>
+			 ^
+/home/jawad/git_fyp/fyp/app/views/cities/index.html.erb:27: unknown regexp options - dv
+/home/jawad/git_fyp/fyp/app/views/cities/index.html.erb:28: syntax error, unexpected '<'
+	</div>
+	 ^
+/home/jawad/git_fyp/fyp/app/views/cities/index.html.erb:29: unknown regexp options - dv
+/home/jawad/git_fyp/fyp/app/views/cities/index.html.erb:29: unterminated string meets end of file
+/home/jawad/git_fyp/fyp/app/views/cities/index.html.erb:29: syntax error, unexpected $end, expecting ')'):
+    17: 									<%= submit_tag 'Translate',:class => 'btn btn-primary '%>
+    18: 								</td>
+    19: 								<td>
+    20: 									<%= link_to "Location", location_cities_path(<script> document.getElementById('text_english').text </script>), :method => :POST, :class => 'btn btn-success' %>
+    21: 								</td>
+    22: 								<td></td><td></td>
+    23: 								
+  actionpack (3.2.17) lib/action_view/template.rb:297:in `module_eval'
+  actionpack (3.2.17) lib/action_view/template.rb:297:in `compile'
+  actionpack (3.2.17) lib/action_view/template.rb:244:in `block in compile!'
+  <internal:prelude>:10:in `synchronize'
+  actionpack (3.2.17) lib/action_view/template.rb:232:in `compile!'
+  actionpack (3.2.17) lib/action_view/template.rb:144:in `block in render'
+  activesupport (3.2.17) lib/active_support/notifications.rb:125:in `instrument'
+  actionpack (3.2.17) lib/action_view/template.rb:143:in `render'
+  actionpack (3.2.17) lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+  actionpack (3.2.17) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (3.2.17) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.17) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.17) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.17) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionpack (3.2.17) lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+  actionpack (3.2.17) lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+  actionpack (3.2.17) lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+  actionpack (3.2.17) lib/action_view/renderer/template_renderer.rb:18:in `render'
+  actionpack (3.2.17) lib/action_view/renderer/renderer.rb:36:in `render_template'
+  actionpack (3.2.17) lib/action_view/renderer/renderer.rb:17:in `render'
+  actionpack (3.2.17) lib/abstract_controller/rendering.rb:110:in `_render_template'
+  actionpack (3.2.17) lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  actionpack (3.2.17) lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  actionpack (3.2.17) lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  actionpack (3.2.17) lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  actionpack (3.2.17) lib/abstract_controller/rendering.rb:88:in `render'
+  actionpack (3.2.17) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (3.2.17) lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+  activesupport (3.2.17) lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+  /home/jawad/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+  activesupport (3.2.17) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  actionpack (3.2.17) lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+  actionpack (3.2.17) lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  activerecord (3.2.17) lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+  actionpack (3.2.17) lib/action_controller/metal/instrumentation.rb:39:in `render'
+  actionpack (3.2.17) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (3.2.17) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (3.2.17) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.17) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.17) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.17) lib/active_support/callbacks.rb:414:in `_run__1901534119743637030__process_action__4425294606976026087__callbacks'
+  activesupport (3.2.17) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.17) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.17) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.17) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.17) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.17) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.17) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.17) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.17) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.17) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.17) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  activerecord (3.2.17) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.17) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.17) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.17) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.17) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.17) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.17) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.17) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.17) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.17) lib/action_dispatch/routing/route_set.rb:608:in `call'
+  actionpack (3.2.17) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.17) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.17) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.17) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.17) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.17) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.17) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.17) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.17) lib/active_support/callbacks.rb:405:in `_run__1769905866733079376__call__3004172704832390526__callbacks'
+  activesupport (3.2.17) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.17) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.17) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.17) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.17) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.17) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.17) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.17) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.17) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.17) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.17) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.17) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.17) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.17) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.17) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.17) lib/rails/engine.rb:484:in `call'
+  railties (3.2.17) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.17) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/jawad/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/jawad/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/jawad/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
+  Rendered /home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-27 16:10:26 +0500
+Processing by CitiesController#index as HTML
+ERROR: compiling _app_views_cities_index_html_erb__3602974981898053768_70137489734140 RAISED /home/jawad/git_fyp/fyp/app/views/cities/index.html.erb:20: syntax error, unexpected '<', expecting ')'
+...cation", location_cities_path(<script> document.getElementBy...
+...                               ^
+/home/jawad/git_fyp/fyp/app/views/cities/index.html.erb:21: unknown regexp options - td
+unmatched close parenthesis: /script>), :method => :POST, :class => 'btn btn-success' );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('								</
+/home/jawad/git_fyp/fyp/app/views/cities/index.html.erb:22: syntax error, unexpected '<'
+								<td></td><td></td>
+								 ^
+/home/jawad/git_fyp/fyp/app/views/cities/index.html.erb:22: unknown regexp options - td
+/home/jawad/git_fyp/fyp/app/views/cities/index.html.erb:24: syntax error, unexpected '<'
+							</tr>
+							 ^
+/home/jawad/git_fyp/fyp/app/views/cities/index.html.erb:25: unknown regexp options - dv
+/home/jawad/git_fyp/fyp/app/views/cities/index.html.erb:26: syntax error, unexpected '<'
+			</div>
+			 ^
+/home/jawad/git_fyp/fyp/app/views/cities/index.html.erb:27: unknown regexp options - dv
+/home/jawad/git_fyp/fyp/app/views/cities/index.html.erb:28: syntax error, unexpected '<'
+	</div>
+	 ^
+/home/jawad/git_fyp/fyp/app/views/cities/index.html.erb:29: unknown regexp options - dv
+/home/jawad/git_fyp/fyp/app/views/cities/index.html.erb:29: unterminated string meets end of file
+/home/jawad/git_fyp/fyp/app/views/cities/index.html.erb:29: syntax error, unexpected $end, expecting ')'
+Function body:           def _app_views_cities_index_html_erb__3602974981898053768_70137489734140(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "cities/index";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_concat('<div class="container">  
+  <div class="row">
+    <div class="col-sm-6 col-md-4 col-md-offset-4">
+      <h1 class="text-center login-title">Highlighting the Locations</h1><br><br>
+      <div class="account-wall">
+				');@output_buffer.append= ( form_tag translate_cities_path,:method => :POST );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('					<div style = \'width:500px;\'>
+						<table>
+							<tr>
+								<td>
+									');@output_buffer.append= ( text_area :text, :english, rows: 5, cols: 50, :class => 'form-control');@output_buffer.safe_concat(' 
+');@output_buffer.safe_concat('								</td>
+							</tr>
+							<tr>
+								<td></td><td></td>
+								<td>
+									');@output_buffer.append= ( submit_tag 'Translate',:class => 'btn btn-primary ');@output_buffer.safe_concat('
+');@output_buffer.safe_concat('								</td>
+								<td>
+									');@output_buffer.append= ( link_to "Location", location_cities_path(<script> document.getElementById('text_english') </script>), :method => :POST, :class => 'btn btn-success' );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('								</td>
+								<td></td><td></td>
+								
+							</tr>
+					</div>
+			</div>
+		</div>
+	</div>
+</div>');@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_view/template.rb:297:in `module_eval'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_view/template.rb:297:in `compile'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_view/template.rb:244:in `block in compile!'
+<internal:prelude>:10:in `synchronize'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_view/template.rb:232:in `compile!'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_view/template.rb:144:in `block in render'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/activesupport-3.2.17/lib/active_support/notifications.rb:125:in `instrument'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_view/template.rb:143:in `render'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/activesupport-3.2.17/lib/active_support/notifications.rb:123:in `block in instrument'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/activesupport-3.2.17/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/activesupport-3.2.17/lib/active_support/notifications.rb:123:in `instrument'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_view/renderer/template_renderer.rb:18:in `render'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_view/renderer/renderer.rb:17:in `render'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/abstract_controller/rendering.rb:110:in `_render_template'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/abstract_controller/rendering.rb:88:in `render'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_controller/metal/rendering.rb:16:in `render'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/activesupport-3.2.17/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/home/jawad/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/activesupport-3.2.17/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/activerecord-3.2.17/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/abstract_controller/base.rb:167:in `process_action'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/activesupport-3.2.17/lib/active_support/callbacks.rb:414:in `_run__1901534119743637030__process_action__4425294606976026087__callbacks'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/activesupport-3.2.17/lib/active_support/callbacks.rb:405:in `__run_callback'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/activesupport-3.2.17/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/activesupport-3.2.17/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/activesupport-3.2.17/lib/active_support/notifications.rb:123:in `block in instrument'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/activesupport-3.2.17/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/activesupport-3.2.17/lib/active_support/notifications.rb:123:in `instrument'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/activerecord-3.2.17/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/abstract_controller/base.rb:121:in `process'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/abstract_controller/rendering.rb:45:in `process'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_controller/metal.rb:203:in `dispatch'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_controller/metal.rb:246:in `block in action'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/routing/route_set.rb:73:in `call'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/routing/route_set.rb:36:in `call'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/journey-1.0.4/lib/journey/router.rb:68:in `block in call'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/journey-1.0.4/lib/journey/router.rb:56:in `each'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/journey-1.0.4/lib/journey/router.rb:56:in `call'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/routing/route_set.rb:608:in `call'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/rack-1.4.5/lib/rack/etag.rb:23:in `call'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/rack-1.4.5/lib/rack/conditionalget.rb:25:in `call'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/head.rb:14:in `call'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/flash.rb:242:in `call'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/rack-1.4.5/lib/rack/session/abstract/id.rb:210:in `context'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/rack-1.4.5/lib/rack/session/abstract/id.rb:205:in `call'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/cookies.rb:341:in `call'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/activerecord-3.2.17/lib/active_record/query_cache.rb:64:in `call'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/activerecord-3.2.17/lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/activesupport-3.2.17/lib/active_support/callbacks.rb:405:in `_run__1769905866733079376__call__3004172704832390526__callbacks'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/activesupport-3.2.17/lib/active_support/callbacks.rb:405:in `__run_callback'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/activesupport-3.2.17/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/activesupport-3.2.17/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/reloader.rb:65:in `call'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/railties-3.2.17/lib/rails/rack/logger.rb:32:in `call_app'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/railties-3.2.17/lib/rails/rack/logger.rb:16:in `block in call'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/activesupport-3.2.17/lib/active_support/tagged_logging.rb:22:in `tagged'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/railties-3.2.17/lib/rails/rack/logger.rb:16:in `call'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/rack-1.4.5/lib/rack/methodoverride.rb:21:in `call'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/rack-1.4.5/lib/rack/runtime.rb:17:in `call'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/activesupport-3.2.17/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/rack-1.4.5/lib/rack/lock.rb:15:in `call'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/static.rb:63:in `call'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/railties-3.2.17/lib/rails/engine.rb:484:in `call'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/railties-3.2.17/lib/rails/application.rb:231:in `call'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/rack-1.4.5/lib/rack/content_length.rb:14:in `call'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/railties-3.2.17/lib/rails/rack/log_tailer.rb:17:in `call'
+/home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/rack-1.4.5/lib/rack/handler/webrick.rb:59:in `service'
+/home/jawad/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+/home/jawad/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+/home/jawad/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+  Rendered cities/index.html.erb within layouts/application (27.9ms)
+Completed 500 Internal Server Error in 29.8ms
+
+ActionView::Template::Error (/home/jawad/git_fyp/fyp/app/views/cities/index.html.erb:20: syntax error, unexpected '<', expecting ')'
+...cation", location_cities_path(<script> document.getElementBy...
+...                               ^
+/home/jawad/git_fyp/fyp/app/views/cities/index.html.erb:21: unknown regexp options - td
+unmatched close parenthesis: /script>), :method => :POST, :class => 'btn btn-success' );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('								</
+/home/jawad/git_fyp/fyp/app/views/cities/index.html.erb:22: syntax error, unexpected '<'
+								<td></td><td></td>
+								 ^
+/home/jawad/git_fyp/fyp/app/views/cities/index.html.erb:22: unknown regexp options - td
+/home/jawad/git_fyp/fyp/app/views/cities/index.html.erb:24: syntax error, unexpected '<'
+							</tr>
+							 ^
+/home/jawad/git_fyp/fyp/app/views/cities/index.html.erb:25: unknown regexp options - dv
+/home/jawad/git_fyp/fyp/app/views/cities/index.html.erb:26: syntax error, unexpected '<'
+			</div>
+			 ^
+/home/jawad/git_fyp/fyp/app/views/cities/index.html.erb:27: unknown regexp options - dv
+/home/jawad/git_fyp/fyp/app/views/cities/index.html.erb:28: syntax error, unexpected '<'
+	</div>
+	 ^
+/home/jawad/git_fyp/fyp/app/views/cities/index.html.erb:29: unknown regexp options - dv
+/home/jawad/git_fyp/fyp/app/views/cities/index.html.erb:29: unterminated string meets end of file
+/home/jawad/git_fyp/fyp/app/views/cities/index.html.erb:29: syntax error, unexpected $end, expecting ')'):
+    17: 									<%= submit_tag 'Translate',:class => 'btn btn-primary '%>
+    18: 								</td>
+    19: 								<td>
+    20: 									<%= link_to "Location", location_cities_path(<script> document.getElementById('text_english') </script>), :method => :POST, :class => 'btn btn-success' %>
+    21: 								</td>
+    22: 								<td></td><td></td>
+    23: 								
+  actionpack (3.2.17) lib/action_view/template.rb:297:in `module_eval'
+  actionpack (3.2.17) lib/action_view/template.rb:297:in `compile'
+  actionpack (3.2.17) lib/action_view/template.rb:244:in `block in compile!'
+  <internal:prelude>:10:in `synchronize'
+  actionpack (3.2.17) lib/action_view/template.rb:232:in `compile!'
+  actionpack (3.2.17) lib/action_view/template.rb:144:in `block in render'
+  activesupport (3.2.17) lib/active_support/notifications.rb:125:in `instrument'
+  actionpack (3.2.17) lib/action_view/template.rb:143:in `render'
+  actionpack (3.2.17) lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+  actionpack (3.2.17) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (3.2.17) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.17) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.17) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.17) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionpack (3.2.17) lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+  actionpack (3.2.17) lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+  actionpack (3.2.17) lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+  actionpack (3.2.17) lib/action_view/renderer/template_renderer.rb:18:in `render'
+  actionpack (3.2.17) lib/action_view/renderer/renderer.rb:36:in `render_template'
+  actionpack (3.2.17) lib/action_view/renderer/renderer.rb:17:in `render'
+  actionpack (3.2.17) lib/abstract_controller/rendering.rb:110:in `_render_template'
+  actionpack (3.2.17) lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  actionpack (3.2.17) lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  actionpack (3.2.17) lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  actionpack (3.2.17) lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  actionpack (3.2.17) lib/abstract_controller/rendering.rb:88:in `render'
+  actionpack (3.2.17) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (3.2.17) lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+  activesupport (3.2.17) lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+  /home/jawad/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+  activesupport (3.2.17) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  actionpack (3.2.17) lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+  actionpack (3.2.17) lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  activerecord (3.2.17) lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+  actionpack (3.2.17) lib/action_controller/metal/instrumentation.rb:39:in `render'
+  actionpack (3.2.17) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (3.2.17) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (3.2.17) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.17) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.17) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.17) lib/active_support/callbacks.rb:414:in `_run__1901534119743637030__process_action__4425294606976026087__callbacks'
+  activesupport (3.2.17) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.17) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.17) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.17) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.17) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.17) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.17) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.17) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.17) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.17) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.17) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  activerecord (3.2.17) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.17) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.17) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.17) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.17) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.17) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.17) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.17) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.17) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.17) lib/action_dispatch/routing/route_set.rb:608:in `call'
+  actionpack (3.2.17) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.17) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.17) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.17) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.17) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.17) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.17) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.17) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.17) lib/active_support/callbacks.rb:405:in `_run__1769905866733079376__call__3004172704832390526__callbacks'
+  activesupport (3.2.17) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.17) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.17) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.17) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.17) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.17) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.17) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.17) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.17) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.17) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.17) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.17) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.17) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.17) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.17) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.17) lib/rails/engine.rb:484:in `call'
+  railties (3.2.17) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.17) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/jawad/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/jawad/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/jawad/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-27 16:14:09 +0500
+Processing by CitiesController#index as HTML
+  Rendered cities/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 21.5ms (Views: 9.4ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-27 16:14:10 +0500
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-27 16:14:10 +0500
+Served asset /jquery.js - 200 OK (3ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-27 16:14:10 +0500
+Served asset /cities.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-27 16:14:10 +0500
+Served asset /bootstrap.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-27 16:14:10 +0500
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-27 16:14:10 +0500
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-27 16:14:10 +0500
+Served asset /cities.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-27 16:14:10 +0500
+Served asset /application.js - 200 OK (1ms)
+
+
+Started POST "/cities/translate" for 127.0.0.1 at 2014-10-27 16:14:23 +0500
+Processing by CitiesController#translate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O2MHm0sgC+ebjbjLRzVNb582vEAFpzBdeBkWdHw/lwg=", "text"=>{"english"=>"test"}, "commit"=>"Translate"}
+  Rendered cities/translate.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 6570.6ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cities/translate" for 127.0.0.1 at 2014-10-27 16:14:48 +0500
+Processing by CitiesController#translate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O2MHm0sgC+ebjbjLRzVNb582vEAFpzBdeBkWdHw/lwg=", "text"=>{"english"=>"test"}}
+  Rendered cities/translate.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 8108.7ms (Views: 10.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-27 16:16:59 +0500
+Processing by CitiesController#index as HTML
+  Rendered cities/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 39.5ms (Views: 32.7ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-27 16:16:59 +0500
+Served asset /application.css - 200 OK (3ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-27 16:16:59 +0500
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-27 16:16:59 +0500
+Served asset /jquery.js - 200 OK (1ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-27 16:16:59 +0500
+Served asset /cities.css - 200 OK (3ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-27 16:16:59 +0500
+Served asset /bootstrap.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-27 16:16:59 +0500
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-27 16:16:59 +0500
+Served asset /cities.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-27 16:16:59 +0500
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-27 16:17:20 +0500
+Processing by CitiesController#index as HTML
+  Rendered cities/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 8.0ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-27 16:17:21 +0500
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-27 16:17:21 +0500
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-27 16:17:21 +0500
+Served asset /cities.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-27 16:17:21 +0500
+Served asset /bootstrap.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-27 16:17:21 +0500
+Served asset /jquery.js - 200 OK (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-27 16:17:21 +0500
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-27 16:17:21 +0500
+Served asset /cities.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-27 16:17:21 +0500
+Served asset /application.js - 200 OK (1ms)
+
+
+Started POST "/cities/translate" for 127.0.0.1 at 2014-10-27 16:17:26 +0500
+Processing by CitiesController#translate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O2MHm0sgC+ebjbjLRzVNb582vEAFpzBdeBkWdHw/lwg=", "text"=>{"english"=>"test"}, "commit"=>"Location"}
+  [1m[36mCity Load (0.4ms)[0m  [1mSELECT "cities".* FROM "cities" [0m
+Redirected to http://localhost:3000/cities/location?text=test
+Completed 302 Found in 30.8ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/cities/location?text=test" for 127.0.0.1 at 2014-10-27 16:17:26 +0500
+Processing by CitiesController#show as HTML
+  Parameters: {"text"=>"test", "id"=>"location"}
+  Rendered cities/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 7.4ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cities/translate" for 127.0.0.1 at 2014-10-27 16:17:39 +0500
+Processing by CitiesController#translate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O2MHm0sgC+ebjbjLRzVNb582vEAFpzBdeBkWdHw/lwg=", "text"=>{"english"=>"test"}, "commit"=>"Translate"}
+  Rendered cities/translate.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 6217.0ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cities/translate" for 127.0.0.1 at 2014-10-27 16:17:50 +0500
+Processing by CitiesController#translate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O2MHm0sgC+ebjbjLRzVNb582vEAFpzBdeBkWdHw/lwg=", "text"=>{"english"=>"test"}, "commit"=>"Location"}
+  [1m[35mCity Load (0.4ms)[0m  SELECT "cities".* FROM "cities" 
+Redirected to http://localhost:3000/cities/location?text=test
+Completed 302 Found in 2.9ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/cities/location?text=test" for 127.0.0.1 at 2014-10-27 16:17:50 +0500
+Processing by CitiesController#show as HTML
+  Parameters: {"text"=>"test", "id"=>"location"}
+  Rendered cities/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 6.1ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-27 16:21:22 +0500
+Processing by CitiesController#index as HTML
+  Rendered cities/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 15.7ms (Views: 7.0ms | ActiveRecord: 2.9ms)
+
+
+Started POST "/cities/translate" for 127.0.0.1 at 2014-10-27 16:21:29 +0500
+Processing by CitiesController#translate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O2MHm0sgC+ebjbjLRzVNb582vEAFpzBdeBkWdHw/lwg=", "text"=>{"english"=>"lahore is lahore"}, "commit"=>"Translate"}
+  Rendered cities/translate.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 5235.9ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cities/translate" for 127.0.0.1 at 2014-10-27 16:21:44 +0500
+Processing by CitiesController#translate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O2MHm0sgC+ebjbjLRzVNb582vEAFpzBdeBkWdHw/lwg=", "text"=>{"english"=>"lahore is lahore"}, "commit"=>"Location"}
+  [1m[36mCity Load (0.3ms)[0m  [1mSELECT "cities".* FROM "cities" [0m
+Redirected to http://localhost:3000/cities/location?text=lahore+is+lahore
+Completed 302 Found in 3.0ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/cities/location?text=lahore+is+lahore" for 127.0.0.1 at 2014-10-27 16:21:44 +0500
+Processing by CitiesController#location as HTML
+  Parameters: {"text"=>"lahore is lahore"}
+  [1m[35mCity Load (0.4ms)[0m  SELECT "cities".* FROM "cities" 
+Completed 500 Internal Server Error in 1.5ms
+
+TypeError (can't convert Symbol into Integer):
+  app/controllers/cities_controller.rb:45:in `[]'
+  app/controllers/cities_controller.rb:45:in `location'
+
+
+  Rendered /home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered /home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.3ms)
+
+
+Started GET "/cities/location?text=lahore+is+lahore" for 127.0.0.1 at 2014-10-27 16:22:09 +0500
+Processing by CitiesController#location as HTML
+  Parameters: {"text"=>"lahore is lahore"}
+  [1m[36mCity Load (0.3ms)[0m  [1mSELECT "cities".* FROM "cities" [0m
+  Rendered cities/location.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 15.8ms (Views: 8.2ms | ActiveRecord: 1.7ms)

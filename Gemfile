@@ -21,9 +21,9 @@ end
 
 gem 'jquery-rails'
 gem 'httparty'
-gem
-gem 'easy_translate'
-
+gem 'unicorn'
+gem 'microsoft_translator'
+gem "bing_translator", "~> 4.4.0"
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
@@ -31,7 +31,7 @@ gem 'easy_translate'
 # gem 'jbuilder'
 
 # Use unicorn as the app server
-# gem 'unicorn'
+
 
 # Deploy with Capistrano
 # gem 'capistrano'
