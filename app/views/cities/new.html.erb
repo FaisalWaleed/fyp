@@ -1,2 +1,16 @@
-<h1>Cities#new</h1>
-<p>Find me in app/views/cities/new.html.erb</p>
+<div class="container">  
+  <div class="row">
+    <div class="col-sm-6 col-md-4 col-md-offset-4">
+      <h1 class="text-center login-title">Add New Location</h1>
+      <div class="account-wall">
+<%= form_for @city do |new_city| %>
+<div>
+    <%= new_city.label :title %>
+    <%= new_city.text_field :english, class: "form-control"  %><br>
+</div>
+<div class="field"><%= new_city.submit "Create", class: "btn btn-lg btn-success btn-block"  %></div>
+<% end  %>
+</div>
+</div>
+</div>
+</div>

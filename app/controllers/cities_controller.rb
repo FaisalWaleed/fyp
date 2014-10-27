@@ -8,9 +8,13 @@ class CitiesController < ApplicationController
   end
 
   def create
+    city = City.new(params[:city])
+    city.save!
+    
   end
 
   def new
+    @city = City.new
   end
 
   def translate

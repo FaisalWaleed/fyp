@@ -14152,3 +14152,154 @@ Processing by CitiesController#location as HTML
   [1m[36mCity Load (0.3ms)[0m  [1mSELECT "cities".* FROM "cities" [0m
   Rendered cities/location.html.erb within layouts/application (1.1ms)
 Completed 200 OK in 15.8ms (Views: 8.2ms | ActiveRecord: 1.7ms)
+Connecting to database specified by database.yml
+  [1m[36m (75.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateCities (20141023082423)
+  [1m[35m (0.3ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateCities (20141023082423)
+  [1m[35m (0.3ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-27 17:33:48 +0500
+Connecting to database specified by database.yml
+Processing by CitiesController#index as HTML
+  Rendered cities/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 128.0ms (Views: 55.3ms | ActiveRecord: 6.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-27 17:33:49 +0500
+Served asset /application.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-27 17:33:49 +0500
+Served asset /cities.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-27 17:33:49 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-27 17:33:49 +0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-27 17:33:49 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-27 17:33:49 +0500
+Served asset /bootstrap.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-27 17:33:49 +0500
+Served asset /cities.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-27 17:33:49 +0500
+Served asset /application.js - 304 Not Modified (34ms)
+
+
+Started GET "/cities/new" for 127.0.0.1 at 2014-10-27 17:34:01 +0500
+Processing by CitiesController#new as HTML
+  Rendered cities/new.html.erb within layouts/application (178.8ms)
+Completed 500 Internal Server Error in 181.3ms
+
+ActionView::Template::Error (undefined local variable or method `new_project' for #<#<Class:0x00000003f69a20>:0x00000003f2b900>):
+    6: <%= form_for @city do |new_city| %>
+    7: <div>
+    8:     <%= new_city.label :title %>
+    9:     <%= new_project.text_field :english, class: "form-control"  %><br>
+    10: </div>
+    11: <div class="field"><%= new_city.submit "Create", class: "btn btn-lg btn-success btn-block"  %></div>
+    12: <% end  %>
+  app/views/cities/new.html.erb:9:in `block in _app_views_cities_new_html_erb___3804310388633966775_33114180'
+  app/views/cities/new.html.erb:6:in `_app_views_cities_new_html_erb___3804310388633966775_33114180'
+
+
+  Rendered /home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.7ms)
+
+
+Started GET "/cities/new" for 127.0.0.1 at 2014-10-27 17:34:38 +0500
+Processing by CitiesController#new as HTML
+  Rendered cities/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 11.7ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-27 17:34:38 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-27 17:34:38 +0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-27 17:34:38 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-27 17:34:38 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-27 17:34:38 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-27 17:34:38 +0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-27 17:34:38 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-27 17:34:38 +0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/cities" for 127.0.0.1 at 2014-10-27 17:34:44 +0500
+Processing by CitiesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O2MHm0sgC+ebjbjLRzVNb582vEAFpzBdeBkWdHw/lwg=", "city"=>{"english"=>"Lahore"}, "commit"=>"Create"}
+  [1m[36m (32.8ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (326.9ms)[0m  INSERT INTO "cities" ("created_at", "english", "updated_at", "urdu") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Mon, 27 Oct 2014 12:34:44 UTC +00:00], ["english", "Lahore"], ["updated_at", Mon, 27 Oct 2014 12:34:44 UTC +00:00], ["urdu", nil]]
+  [1m[36m (91.6ms)[0m  [1mCOMMIT[0m
+  Rendered cities/create.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 460.6ms (Views: 5.4ms | ActiveRecord: 451.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-27 17:34:44 +0500
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-27 17:34:44 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-27 17:34:44 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-27 17:34:44 +0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-27 17:34:44 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-27 17:34:44 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-27 17:34:44 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-27 17:34:44 +0500
+Served asset /application.js - 304 Not Modified (1ms)
+Connecting to database specified by database.yml
