@@ -6,6 +6,9 @@ Fyp::Application.routes.draw do
     collection do
       post 'translate'
       get 'location'
+      post 'data'
+      get 'loc'
+      get 'people'
     end
   end
 
