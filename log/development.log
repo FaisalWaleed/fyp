@@ -28845,3 +28845,2055 @@ BingTranslator::Exception ((s:Client) TranslateApiException: Cannot find an acti
   Rendered /home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
   Rendered /home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
   Rendered /home/jawad/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-3.2.17/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-29 14:33:52 +0500
+Processing by CitiesController#index as HTML
+  Rendered cities/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 9.1ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-29 14:33:53 +0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-29 14:33:53 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-29 14:33:53 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-29 14:33:53 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-29 14:33:53 +0500
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-29 14:33:53 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-29 14:33:53 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-29 14:33:53 +0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-29 14:33:54 +0500
+Processing by CitiesController#index as HTML
+  Rendered cities/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 10.1ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-29 14:33:54 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-29 14:33:54 +0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-29 14:33:54 +0500
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-29 14:33:54 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-29 14:33:54 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-29 14:33:54 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-29 14:33:54 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-29 14:33:54 +0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/cities/loc" for 127.0.0.1 at 2014-10-29 14:33:57 +0500
+Processing by CitiesController#loc as HTML
+  [1m[36mCity Load (44.5ms)[0m  [1mSELECT "cities".* FROM "cities" [0m
+  Rendered cities/loc.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 56.4ms (Views: 6.5ms | ActiveRecord: 44.5ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-29 14:33:57 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-29 14:33:57 +0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-29 14:33:57 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-29 14:33:57 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-29 14:33:57 +0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-29 14:33:57 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-29 14:33:57 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-29 14:33:57 +0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/cities/people" for 127.0.0.1 at 2014-10-29 14:33:58 +0500
+Processing by CitiesController#people as HTML
+  [1m[35mPeople Load (1.3ms)[0m  SELECT "people".* FROM "people" 
+  Rendered cities/people.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 17.9ms (Views: 10.5ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-29 14:33:58 +0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-29 14:33:58 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-29 14:33:58 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-29 14:33:58 +0500
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-29 14:33:58 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-29 14:33:58 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-29 14:33:58 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-29 14:33:58 +0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/cities/loc" for 127.0.0.1 at 2014-10-29 14:33:59 +0500
+Processing by CitiesController#loc as HTML
+  [1m[36mCity Load (1.0ms)[0m  [1mSELECT "cities".* FROM "cities" [0m
+  Rendered cities/loc.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 13.9ms (Views: 8.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-29 14:33:59 +0500
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-29 14:33:59 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-29 14:33:59 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-29 14:33:59 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-29 14:33:59 +0500
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-29 14:33:59 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-29 14:33:59 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-29 14:33:59 +0500
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/cities/people" for 127.0.0.1 at 2014-10-29 14:34:00 +0500
+Processing by CitiesController#people as HTML
+  [1m[35mPeople Load (0.6ms)[0m  SELECT "people".* FROM "people" 
+  Rendered cities/people.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 11.1ms (Views: 7.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-29 14:34:00 +0500
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-29 14:34:00 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-29 14:34:00 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-29 14:34:00 +0500
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-29 14:34:00 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-29 14:34:00 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-29 14:34:00 +0500
+Served asset /cities.js - 304 Not Modified (31ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-29 14:34:00 +0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/cities/loc" for 127.0.0.1 at 2014-10-29 14:34:00 +0500
+Processing by CitiesController#loc as HTML
+  [1m[36mCity Load (0.7ms)[0m  [1mSELECT "cities".* FROM "cities" [0m
+  Rendered cities/loc.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 12.3ms (Views: 7.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-29 14:34:00 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-29 14:34:00 +0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-29 14:34:00 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-29 14:34:00 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-29 14:34:00 +0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-29 14:34:00 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-29 14:34:00 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-29 14:34:00 +0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/cities/people" for 127.0.0.1 at 2014-10-29 14:34:01 +0500
+Processing by CitiesController#people as HTML
+  [1m[35mPeople Load (0.6ms)[0m  SELECT "people".* FROM "people" 
+  Rendered cities/people.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 14.1ms (Views: 7.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-29 14:34:01 +0500
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-29 14:34:01 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-29 14:34:01 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-29 14:34:01 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-29 14:34:01 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-29 14:34:01 +0500
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-29 14:34:01 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-29 14:34:01 +0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/cities/loc" for 127.0.0.1 at 2014-10-29 14:34:01 +0500
+Processing by CitiesController#loc as HTML
+  [1m[36mCity Load (0.9ms)[0m  [1mSELECT "cities".* FROM "cities" [0m
+  Rendered cities/loc.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 14.2ms (Views: 8.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-29 14:34:01 +0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-29 14:34:01 +0500
+Served asset /cities.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-29 14:34:01 +0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-29 14:34:01 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-29 14:34:01 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-29 14:34:01 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-29 14:34:01 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-29 14:34:01 +0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/cities/people" for 127.0.0.1 at 2014-10-29 14:34:02 +0500
+Processing by CitiesController#people as HTML
+  [1m[35mPeople Load (0.6ms)[0m  SELECT "people".* FROM "people" 
+  Rendered cities/people.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 13.9ms (Views: 8.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-29 14:34:02 +0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-29 14:34:02 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-29 14:34:02 +0500
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-29 14:34:02 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-29 14:34:02 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-29 14:34:02 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-29 14:34:02 +0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-29 14:34:02 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/cities/loc" for 127.0.0.1 at 2014-10-29 14:34:02 +0500
+Processing by CitiesController#loc as HTML
+  [1m[36mCity Load (0.7ms)[0m  [1mSELECT "cities".* FROM "cities" [0m
+  Rendered cities/loc.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 42.5ms (Views: 37.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-29 14:34:02 +0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-29 14:34:02 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-29 14:34:02 +0500
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-29 14:34:02 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-29 14:34:02 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-29 14:34:02 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-29 14:34:02 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-29 14:34:02 +0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-29 14:34:03 +0500
+Processing by CitiesController#index as HTML
+  Rendered cities/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 7.4ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-29 14:34:03 +0500
+Served asset /cities.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-29 14:34:03 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-29 14:34:03 +0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-29 14:34:03 +0500
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-29 14:34:03 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-29 14:34:03 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-29 14:34:03 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-29 14:34:03 +0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/cities/loc" for 127.0.0.1 at 2014-10-29 14:34:03 +0500
+Processing by CitiesController#loc as HTML
+  [1m[35mCity Load (0.6ms)[0m  SELECT "cities".* FROM "cities" 
+  Rendered cities/loc.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 14.3ms (Views: 10.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-29 14:34:03 +0500
+Served asset /cities.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-29 14:34:03 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-29 14:34:03 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-29 14:34:03 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-29 14:34:03 +0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-29 14:34:03 +0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-29 14:34:03 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-29 14:34:03 +0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/cities/people" for 127.0.0.1 at 2014-10-29 14:34:04 +0500
+Processing by CitiesController#people as HTML
+  [1m[36mPeople Load (1.0ms)[0m  [1mSELECT "people".* FROM "people" [0m
+  Rendered cities/people.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 11.8ms (Views: 6.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-29 14:34:04 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-29 14:34:04 +0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-29 14:34:04 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-29 14:34:04 +0500
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-29 14:34:04 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-29 14:34:04 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-29 14:34:04 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-29 14:34:04 +0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-29 14:34:04 +0500
+Processing by CitiesController#index as HTML
+  Rendered cities/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 7.5ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-29 14:34:04 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-29 14:34:04 +0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-29 14:34:04 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-29 14:34:04 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-29 14:34:04 +0500
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-29 14:34:04 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-29 14:34:04 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-29 14:34:04 +0500
+Served asset /application.js - 304 Not Modified (42ms)
+
+
+Started GET "/cities/loc" for 127.0.0.1 at 2014-10-29 14:34:05 +0500
+Processing by CitiesController#loc as HTML
+  [1m[35mCity Load (1.3ms)[0m  SELECT "cities".* FROM "cities" 
+  Rendered cities/loc.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 14.9ms (Views: 7.3ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-29 14:34:05 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-29 14:34:05 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-29 14:34:05 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-29 14:34:05 +0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-29 14:34:05 +0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-29 14:34:05 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-29 14:34:05 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-29 14:34:05 +0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/cities/people" for 127.0.0.1 at 2014-10-29 14:34:05 +0500
+Processing by CitiesController#people as HTML
+  [1m[36mPeople Load (0.7ms)[0m  [1mSELECT "people".* FROM "people" [0m
+  Rendered cities/people.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 12.3ms (Views: 6.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-29 14:34:05 +0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-29 14:34:05 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-29 14:34:05 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-29 14:34:05 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-29 14:34:05 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-29 14:34:05 +0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-29 14:34:05 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-29 14:34:05 +0500
+Served asset /application.js - 304 Not Modified (1ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-29 14:35:34 +0500
+Processing by CitiesController#index as HTML
+  Rendered cities/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 9.7ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-29 14:35:34 +0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-29 14:35:34 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-29 14:35:34 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-29 14:35:34 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-29 14:35:34 +0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-29 14:35:34 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-29 14:35:34 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-29 14:35:34 +0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/cities/data" for 127.0.0.1 at 2014-10-29 14:35:36 +0500
+Processing by CitiesController#data as HTML
+  Parameters: {"authenticity_token"=>"O2MHm0sgC+ebjbjLRzVNb582vEAFpzBdeBkWdHw/lwg="}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Bridge of Allan"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[35m (37.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Paisley"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[36m (8.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Nairobi"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[35m (7.5ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "San Francisco"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[36m (9.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Amityville"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[35m (9.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Berkeley"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[36m (8.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "San Francisco Bay Area"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[35m (8.7ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Amsterdam"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[36m (9.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Mountain View"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[35m (7.8ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Sacramento"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[36m (8.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Fair Oaks"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[35m (9.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Lexington"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[36m (8.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "East Lansing"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[35m (8.9ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "St. Clair"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[36m (8.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Mount Vernon"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[35m (8.7ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Denver"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[36m (9.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "San Rafael"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[35m (7.8ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Africa"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[36m (8.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Antarctica"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[35m (9.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Asia"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Australia"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[35m (8.8ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Europe"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[36m (9.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "North America"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[35m (8.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Oceania"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[36m (9.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "South America"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[35m (8.5ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Andorra"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[36m (8.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "United Arab Emirates"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[35m (8.8ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Afghanistan"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[36m (8.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Antigua and Barbuda"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[35m (8.6ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Anguilla"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[36m (9.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Albania"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[35m (8.0ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Armenia"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[36m (8.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Netherlands Antilles"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[35m (9.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Angola"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[36m (8.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Argentina"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[35m (9.0ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "American Samoa"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[36m (8.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Austria"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[35m (8.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Australia"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[36m (8.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Aruba"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[35m (8.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Azerbaijan"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[36m (8.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Bosnia and Herzegovina"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[35m (8.9ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Barbados"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[36m (7.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Bangladesh"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[35m (8.6ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Belgium"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[36m (9.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Burkina Faso"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[35m (7.7ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Bulgaria"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[36m (8.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Bahrain"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[35m (8.7ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Burundi"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[36m (8.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Benin"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[35m (8.6ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Bermuda"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[36m (8.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Brunei"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[35m (8.6ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Bolivia"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[36m (8.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Brazil"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[35m (8.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Bahamas"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[36m (8.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Bhutan"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[35m (9.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.1ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Bouvet Island"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[36m (9.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Botswana"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[35m (9.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Belarus"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[36m (8.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Belize"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[35m (8.6ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Canada"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[36m (9.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Cocos (Keeling) Islands"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[35m (7.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Central African Republic"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[36m (8.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Congo"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[35m (9.0ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Switzerland"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[36m (7.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Côte d’Ivoire"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[35m (8.8ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Cook Islands"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[36m (8.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Chile"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[35m (8.5ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Cameroon"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[36m (8.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "China"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[35m (8.6ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Colombia"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[36m (8.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Costa Rica"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[35m (9.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Serbia"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[36m (7.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Cuba"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[35m (8.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Cape Verde"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[36m (9.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Christmas Island"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[35m (7.7ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Cyprus"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[36m (8.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Czech Republic"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[35m (9.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Germany"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[36m (8.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Djibouti"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[35m (9.0ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Denmark"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[36m (8.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Dominica"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[35m (8.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Dominican Republic"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[36m (9.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Algeria"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[35m (8.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Ecuador"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[36m (8.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["english", "Estonia"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:38 UTC +00:00], ["urdu", nil]]
+  [1m[35m (8.9ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:39 UTC +00:00], ["english", "Egypt"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:39 UTC +00:00], ["urdu", nil]]
+  [1m[36m (7.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:39 UTC +00:00], ["english", "Western Sahara"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:39 UTC +00:00], ["urdu", nil]]
+  [1m[35m (8.6ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:39 UTC +00:00], ["english", "Eritrea"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:39 UTC +00:00], ["urdu", nil]]
+  [1m[36m (8.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:39 UTC +00:00], ["english", "Spain"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:39 UTC +00:00], ["urdu", nil]]
+  [1m[35m (8.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:39 UTC +00:00], ["english", "Ethiopia"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:39 UTC +00:00], ["urdu", nil]]
+  [1m[36m (8.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:39 UTC +00:00], ["english", "Finland"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:39 UTC +00:00], ["urdu", nil]]
+  [1m[35m (8.0ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:39 UTC +00:00], ["english", "Fiji"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:39 UTC +00:00], ["urdu", nil]]
+  [1m[36m (8.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:39 UTC +00:00], ["english", "Falkland Islands"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:39 UTC +00:00], ["urdu", nil]]
+  [1m[35m (9.1ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:39 UTC +00:00], ["english", "Federated States of Micronesia"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:39 UTC +00:00], ["urdu", nil]]
+  [1m[36m (7.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:39 UTC +00:00], ["english", "Clipperton Island"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:39 UTC +00:00], ["urdu", nil]]
+  [1m[35m (8.8ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:39 UTC +00:00], ["english", "France"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:39 UTC +00:00], ["urdu", nil]]
+  [1m[36m (9.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:39 UTC +00:00], ["english", "United Kingdom"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:39 UTC +00:00], ["urdu", nil]]
+  [1m[35m (7.9ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:39 UTC +00:00], ["english", "Grenada"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:39 UTC +00:00], ["urdu", nil]]
+  [1m[36m (8.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:39 UTC +00:00], ["english", "Georgia"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:39 UTC +00:00], ["urdu", nil]]
+  [1m[35m (8.7ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:39 UTC +00:00], ["english", "French Guiana"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:35:39 UTC +00:00], ["urdu", nil]]
+  [1m[36m (41.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (1.2ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["eng_name", "Jack Abramoff"], ["updated_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (52.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["eng_name", "Bob Ney"], ["updated_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (8.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["eng_name", "David Safavian"], ["updated_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (8.7ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["eng_name", "Kåre Kristiansen"], ["updated_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (9.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["eng_name", "Adam Murimuth"], ["updated_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (8.0ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["eng_name", "Carlos Bernard"], ["updated_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (8.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["eng_name", "Christopher Eccleston"], ["updated_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (8.9ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["eng_name", "Chenganoor Raman Pillai"], ["updated_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["eng_name", "Francisco Pizarro"], ["updated_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (8.7ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["eng_name", "William Hoare"], ["updated_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (9.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["eng_name", "William Beresford"], ["updated_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (8.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["eng_name", "Julia Alvarez"], ["updated_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (8.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["eng_name", "Craig Parnham"], ["updated_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (8.8ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["eng_name", "Shmuel Yosef Agnon"], ["updated_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (8.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["eng_name", "Martin Adams"], ["updated_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (9.0ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["eng_name", "MarTay Jenkins"], ["updated_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (7.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["eng_name", "Adam Bomb"], ["updated_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (8.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["eng_name", "Michael Bush"], ["updated_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (8.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["eng_name", "Tim Alexander"], ["updated_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (7.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["eng_name", "Inge Hammarström"], ["updated_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (8.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["eng_name", "Per Eklund"], ["updated_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (8.9ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["eng_name", "Richard Noble"], ["updated_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (8.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["eng_name", "Sadie Irvine"], ["updated_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (9.0ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["eng_name", "Justine Frangouli-Argyris"], ["updated_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (8.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["eng_name", "Hōjō Ujikuni"], ["updated_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (8.5ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["eng_name", "Kent Baer"], ["updated_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (8.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["eng_name", "Samuel Lister, 1st Baron Masham"], ["updated_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (7.8ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["eng_name", "Eddie Guardado"], ["updated_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (8.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["eng_name", "Red Hickey"], ["updated_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (8.9ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["eng_name", "Serhiy Kovalenko"], ["updated_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (8.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["eng_name", "Saint Naum"], ["updated_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (8.8ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["eng_name", "Yutaka Ishinabe"], ["updated_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (9.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["eng_name", "Heide Schmidt"], ["updated_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (8.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["eng_name", "Sigmar Polke"], ["updated_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (9.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["eng_name", "Stu Hart"], ["updated_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (8.9ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["eng_name", "Anne-Kat. Hærland"], ["updated_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (8.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["eng_name", "Ulrich Plenzdorf"], ["updated_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (9.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["eng_name", "Michael Vale"], ["updated_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (7.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["eng_name", "Sadako Sasaki"], ["updated_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (8.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["eng_name", "Phillip Crosby"], ["updated_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (8.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["eng_name", "Antwaan Randle El"], ["updated_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (8.0ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["eng_name", "Kaoru Yumi"], ["updated_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (8.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["eng_name", "Arshad Khan"], ["updated_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (9.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["eng_name", "Samuel Provoost"], ["updated_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (8.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["eng_name", "Curtis Stinson"], ["updated_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (8.9ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["eng_name", "Antonio Bosio"], ["updated_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (9.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["eng_name", "Héctor Enrique"], ["updated_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (8.6ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["eng_name", "Jim Kyte"], ["updated_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (8.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["eng_name", "Walter Buswell"], ["updated_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (8.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["eng_name", "Oswald Balzer"], ["updated_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (8.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["eng_name", "Nick Anderson"], ["updated_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (9.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["eng_name", "Ariën Van Weesenbeek"], ["updated_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (7.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["eng_name", "Scott Wynd"], ["updated_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (8.7ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["eng_name", "John H. Quick"], ["updated_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (9.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["eng_name", "Joanne Nicholas"], ["updated_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (8.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["eng_name", "Tomasz Józef Zamoyski"], ["updated_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (8.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["eng_name", "Gurban Gurbanov"], ["updated_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (8.8ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["eng_name", "Yoshie Kagesuke"], ["updated_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (8.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["eng_name", "Stoyanka Mutafova"], ["updated_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (9.1ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["eng_name", "William Walden Rubey"], ["updated_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (8.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["eng_name", "Sherrod Brown"], ["updated_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (8.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["eng_name", "Mateja Svet"], ["updated_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (9.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["eng_name", "Muhammad Atta-ullah Faizani"], ["updated_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (8.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["eng_name", "Angela Smith, Baroness Smith of Basildon"], ["updated_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (8.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["eng_name", "Lee Dorsey"], ["updated_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (9.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["eng_name", "Alan Brodrick, 2nd Viscount Midleton"], ["updated_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (8.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["eng_name", "Fess Parker"], ["updated_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (8.8ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["eng_name", "Mohammad-Ali Ramin"], ["updated_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (8.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["eng_name", "Aubrey Beardsley"], ["updated_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (8.7ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["eng_name", "Samuel A. Peeples"], ["updated_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (9.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["eng_name", "Marcus Campbell"], ["updated_at", Wed, 29 Oct 2014 09:35:40 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (8.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:41 UTC +00:00], ["eng_name", "Émile Peynaud"], ["updated_at", Wed, 29 Oct 2014 09:35:41 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (8.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:41 UTC +00:00], ["eng_name", "Bonita Saint"], ["updated_at", Wed, 29 Oct 2014 09:35:41 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (8.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:41 UTC +00:00], ["eng_name", "Donnie Wahlberg"], ["updated_at", Wed, 29 Oct 2014 09:35:41 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (7.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:41 UTC +00:00], ["eng_name", "E. J. Dionne"], ["updated_at", Wed, 29 Oct 2014 09:35:41 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (8.9ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:41 UTC +00:00], ["eng_name", "Henry Starr"], ["updated_at", Wed, 29 Oct 2014 09:35:41 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (8.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:41 UTC +00:00], ["eng_name", "Renee Roberts"], ["updated_at", Wed, 29 Oct 2014 09:35:41 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (8.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:41 UTC +00:00], ["eng_name", "Tony Dorsett"], ["updated_at", Wed, 29 Oct 2014 09:35:41 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (9.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:41 UTC +00:00], ["eng_name", "Camargo Guarnieri"], ["updated_at", Wed, 29 Oct 2014 09:35:41 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (8.7ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:41 UTC +00:00], ["eng_name", "Lena Söderberg"], ["updated_at", Wed, 29 Oct 2014 09:35:41 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (8.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:41 UTC +00:00], ["eng_name", "Andrew Mangan"], ["updated_at", Wed, 29 Oct 2014 09:35:41 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (8.9ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:41 UTC +00:00], ["eng_name", "Nakayama Hakudō"], ["updated_at", Wed, 29 Oct 2014 09:35:41 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:41 UTC +00:00], ["eng_name", "Lamont Reese"], ["updated_at", Wed, 29 Oct 2014 09:35:41 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (8.7ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:41 UTC +00:00], ["eng_name", "David Sainsbury, Baron Sainsbury of Turville"], ["updated_at", Wed, 29 Oct 2014 09:35:41 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (8.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:41 UTC +00:00], ["eng_name", "U-God"], ["updated_at", Wed, 29 Oct 2014 09:35:41 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (7.8ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:41 UTC +00:00], ["eng_name", "Olav V of Norway"], ["updated_at", Wed, 29 Oct 2014 09:35:41 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (9.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:41 UTC +00:00], ["eng_name", "Abdulaziz al-Omari"], ["updated_at", Wed, 29 Oct 2014 09:35:41 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (9.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:41 UTC +00:00], ["eng_name", "Bruce Ridpath"], ["updated_at", Wed, 29 Oct 2014 09:35:41 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (8.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:41 UTC +00:00], ["eng_name", "Jamie Quirk"], ["updated_at", Wed, 29 Oct 2014 09:35:41 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (9.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:41 UTC +00:00], ["eng_name", "Ben Nicholson"], ["updated_at", Wed, 29 Oct 2014 09:35:41 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (9.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:41 UTC +00:00], ["eng_name", "Simon Cadell"], ["updated_at", Wed, 29 Oct 2014 09:35:41 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (8.7ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:41 UTC +00:00], ["eng_name", "Luo Gan"], ["updated_at", Wed, 29 Oct 2014 09:35:41 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (9.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:41 UTC +00:00], ["eng_name", "Gwynn Parry Jones"], ["updated_at", Wed, 29 Oct 2014 09:35:41 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (8.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:41 UTC +00:00], ["eng_name", "Hana Mašková"], ["updated_at", Wed, 29 Oct 2014 09:35:41 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (8.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:41 UTC +00:00], ["eng_name", "Đorđe Jokić"], ["updated_at", Wed, 29 Oct 2014 09:35:41 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (9.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:41 UTC +00:00], ["eng_name", "Anita Colby"], ["updated_at", Wed, 29 Oct 2014 09:35:41 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (8.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:41 UTC +00:00], ["eng_name", "Solomon Hart"], ["updated_at", Wed, 29 Oct 2014 09:35:41 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (8.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:41 UTC +00:00], ["eng_name", "Tony Jarrett"], ["updated_at", Wed, 29 Oct 2014 09:35:41 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (9.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:35:41 UTC +00:00], ["eng_name", "Margareta Keszeg"], ["updated_at", Wed, 29 Oct 2014 09:35:41 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (8.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:35:41 UTC +00:00], ["eng_name", "Eddie Jones"], ["updated_at", Wed, 29 Oct 2014 09:35:41 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (9.0ms)[0m  [1mCOMMIT[0m
+  Rendered cities/data.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 4430.9ms (Views: 12.5ms | ActiveRecord: 1967.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-29 14:35:41 +0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-29 14:35:41 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-29 14:35:41 +0500
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-29 14:35:41 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-29 14:35:41 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-29 14:35:41 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-29 14:35:41 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-29 14:35:41 +0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-29 14:36:23 +0500
+Processing by CitiesController#index as HTML
+  Rendered cities/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 8.4ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-29 14:36:23 +0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-29 14:36:23 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-29 14:36:23 +0500
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-29 14:36:23 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-29 14:36:23 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-29 14:36:23 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-29 14:36:23 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-29 14:36:23 +0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/cities/data" for 127.0.0.1 at 2014-10-29 14:37:39 +0500
+Processing by CitiesController#data as HTML
+  Parameters: {"authenticity_token"=>"O2MHm0sgC+ebjbjLRzVNb582vEAFpzBdeBkWdHw/lwg="}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:40 UTC +00:00], ["english", "Bridge of Allan"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:40 UTC +00:00], ["urdu", nil]]
+  [1m[35m (27.6ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:40 UTC +00:00], ["english", "Paisley"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:40 UTC +00:00], ["urdu", nil]]
+  [1m[36m (8.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:40 UTC +00:00], ["english", "Nairobi"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:40 UTC +00:00], ["urdu", nil]]
+  [1m[35m (8.9ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:40 UTC +00:00], ["english", "San Francisco"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:40 UTC +00:00], ["urdu", nil]]
+  [1m[36m (7.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:40 UTC +00:00], ["english", "Amityville"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:40 UTC +00:00], ["urdu", nil]]
+  [1m[35m (8.6ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Berkeley"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[36m (9.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "San Francisco Bay Area"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[35m (8.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Amsterdam"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[36m (8.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Mountain View"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[35m (8.6ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Sacramento"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[36m (8.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Fair Oaks"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[35m (9.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Lexington"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "East Lansing"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[35m (8.7ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "St. Clair"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[36m (9.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Mount Vernon"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[35m (7.7ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Denver"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[36m (8.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "San Rafael"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[35m (9.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Africa"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[36m (7.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Antarctica"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[35m (9.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Asia"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[36m (9.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Australia"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[35m (8.7ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Europe"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[36m (9.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "North America"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[35m (8.0ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Oceania"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[36m (8.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "South America"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[35m (8.8ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Andorra"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[36m (7.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "United Arab Emirates"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[35m (8.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Afghanistan"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[36m (8.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Antigua and Barbuda"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[35m (7.9ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Anguilla"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[36m (9.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Albania"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[35m (9.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Armenia"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[36m (8.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Netherlands Antilles"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[35m (9.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Angola"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[36m (8.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Argentina"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[35m (8.5ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "American Samoa"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[36m (9.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Austria"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[35m (8.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Australia"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[36m (8.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Aruba"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[35m (9.0ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Azerbaijan"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[36m (7.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Bosnia and Herzegovina"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[35m (8.8ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Barbados"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[36m (8.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Bangladesh"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[35m (8.7ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Belgium"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[36m (9.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Burkina Faso"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[35m (8.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Bulgaria"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[36m (8.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Bahrain"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[35m (9.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Burundi"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[36m (8.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Benin"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[35m (8.7ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Bermuda"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[36m (9.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Brunei"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[35m (8.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Bolivia"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[36m (8.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Brazil"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[35m (9.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Bahamas"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[36m (8.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Bhutan"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[35m (9.0ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Bouvet Island"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Botswana"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[35m (8.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Belarus"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[36m (9.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Belize"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[35m (8.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Canada"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[36m (7.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Cocos (Keeling) Islands"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[35m (8.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Central African Republic"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[36m (7.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Congo"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[35m (9.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Switzerland"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[36m (9.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Côte d’Ivoire"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[35m (8.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Cook Islands"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[36m (8.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Chile"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[35m (9.0ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Cameroon"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[36m (8.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "China"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[35m (9.0ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Colombia"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Costa Rica"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[35m (8.5ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Serbia"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[36m (8.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Cuba"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[35m (7.8ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Cape Verde"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[36m (8.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Christmas Island"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[35m (9.0ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Cyprus"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[36m (8.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Czech Republic"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[35m (9.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Germany"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[36m (9.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Djibouti"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[35m (8.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Denmark"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[36m (8.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Dominica"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[35m (8.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Dominican Republic"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[36m (8.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Algeria"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[35m (9.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Ecuador"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[36m (7.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Estonia"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[35m (8.7ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Egypt"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[36m (9.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Western Sahara"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[35m (8.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Eritrea"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[36m (8.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Spain"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[35m (8.9ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Ethiopia"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[36m (9.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Finland"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[35m (8.7ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Fiji"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Falkland Islands"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[35m (8.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Federated States of Micronesia"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[36m (9.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["english", "Clipperton Island"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:41 UTC +00:00], ["urdu", nil]]
+  [1m[35m (8.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:42 UTC +00:00], ["english", "France"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:42 UTC +00:00], ["urdu", nil]]
+  [1m[36m (8.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:42 UTC +00:00], ["english", "United Kingdom"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:42 UTC +00:00], ["urdu", nil]]
+  [1m[35m (9.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:42 UTC +00:00], ["english", "Grenada"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:42 UTC +00:00], ["urdu", nil]]
+  [1m[36m (7.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:42 UTC +00:00], ["english", "Georgia"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:42 UTC +00:00], ["urdu", nil]]
+  [1m[35m (8.7ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "cities" ("created_at", "english", "typ", "updated_at", "urdu") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:42 UTC +00:00], ["english", "French Guiana"], ["typ", "country"], ["updated_at", Wed, 29 Oct 2014 09:37:42 UTC +00:00], ["urdu", nil]]
+  [1m[36m (9.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (1.2ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["eng_name", "Jack Abramoff"], ["updated_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (43.8ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["eng_name", "Bob Ney"], ["updated_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (8.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["eng_name", "David Safavian"], ["updated_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (8.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["eng_name", "Kåre Kristiansen"], ["updated_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (8.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["eng_name", "Adam Murimuth"], ["updated_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (9.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["eng_name", "Carlos Bernard"], ["updated_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (7.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["eng_name", "Christopher Eccleston"], ["updated_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (69.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["eng_name", "Chenganoor Raman Pillai"], ["updated_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (36.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["eng_name", "Francisco Pizarro"], ["updated_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (8.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["eng_name", "William Hoare"], ["updated_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (8.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["eng_name", "William Beresford"], ["updated_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (9.9ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["eng_name", "Julia Alvarez"], ["updated_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (8.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["eng_name", "Craig Parnham"], ["updated_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (8.8ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["eng_name", "Shmuel Yosef Agnon"], ["updated_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (9.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["eng_name", "Martin Adams"], ["updated_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (8.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["eng_name", "MarTay Jenkins"], ["updated_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (8.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["eng_name", "Adam Bomb"], ["updated_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (8.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["eng_name", "Michael Bush"], ["updated_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (8.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["eng_name", "Tim Alexander"], ["updated_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (9.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["eng_name", "Inge Hammarström"], ["updated_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (8.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["eng_name", "Per Eklund"], ["updated_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (8.6ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["eng_name", "Richard Noble"], ["updated_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (9.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["eng_name", "Sadie Irvine"], ["updated_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (7.8ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["eng_name", "Justine Frangouli-Argyris"], ["updated_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (8.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["eng_name", "Hōjō Ujikuni"], ["updated_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (9.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["eng_name", "Kent Baer"], ["updated_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (41.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["eng_name", "Samuel Lister, 1st Baron Masham"], ["updated_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (41.8ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["eng_name", "Eddie Guardado"], ["updated_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["eng_name", "Red Hickey"], ["updated_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (8.8ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["eng_name", "Serhiy Kovalenko"], ["updated_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (8.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["eng_name", "Saint Naum"], ["updated_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (8.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["eng_name", "Yutaka Ishinabe"], ["updated_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (8.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["eng_name", "Heide Schmidt"], ["updated_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (8.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["eng_name", "Sigmar Polke"], ["updated_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (8.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["eng_name", "Stu Hart"], ["updated_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (9.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["eng_name", "Anne-Kat. Hærland"], ["updated_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (8.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["eng_name", "Ulrich Plenzdorf"], ["updated_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (8.8ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["eng_name", "Michael Vale"], ["updated_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (9.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["eng_name", "Sadako Sasaki"], ["updated_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (8.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["eng_name", "Phillip Crosby"], ["updated_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (9.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["eng_name", "Antwaan Randle El"], ["updated_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (9.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["eng_name", "Kaoru Yumi"], ["updated_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (8.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["eng_name", "Arshad Khan"], ["updated_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (8.8ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["eng_name", "Samuel Provoost"], ["updated_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (7.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["eng_name", "Curtis Stinson"], ["updated_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (8.8ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["eng_name", "Antonio Bosio"], ["updated_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (8.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["eng_name", "Héctor Enrique"], ["updated_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (8.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["eng_name", "Jim Kyte"], ["updated_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (8.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["eng_name", "Walter Buswell"], ["updated_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (9.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["eng_name", "Oswald Balzer"], ["updated_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["eng_name", "Nick Anderson"], ["updated_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (8.8ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["eng_name", "Ariën Van Weesenbeek"], ["updated_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (8.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["eng_name", "Scott Wynd"], ["updated_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (9.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["eng_name", "John H. Quick"], ["updated_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (9.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["eng_name", "Joanne Nicholas"], ["updated_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (8.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["eng_name", "Tomasz Józef Zamoyski"], ["updated_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (8.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["eng_name", "Gurban Gurbanov"], ["updated_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (9.0ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["eng_name", "Yoshie Kagesuke"], ["updated_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (8.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["eng_name", "Stoyanka Mutafova"], ["updated_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (8.6ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["eng_name", "William Walden Rubey"], ["updated_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (8.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["eng_name", "Sherrod Brown"], ["updated_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (7.8ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["eng_name", "Mateja Svet"], ["updated_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (9.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["eng_name", "Muhammad Atta-ullah Faizani"], ["updated_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (9.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["eng_name", "Angela Smith, Baroness Smith of Basildon"], ["updated_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (8.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["eng_name", "Lee Dorsey"], ["updated_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (9.0ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["eng_name", "Alan Brodrick, 2nd Viscount Midleton"], ["updated_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (8.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["eng_name", "Fess Parker"], ["updated_at", Wed, 29 Oct 2014 09:37:43 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (8.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:44 UTC +00:00], ["eng_name", "Mohammad-Ali Ramin"], ["updated_at", Wed, 29 Oct 2014 09:37:44 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (8.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:44 UTC +00:00], ["eng_name", "Aubrey Beardsley"], ["updated_at", Wed, 29 Oct 2014 09:37:44 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (7.9ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:44 UTC +00:00], ["eng_name", "Samuel A. Peeples"], ["updated_at", Wed, 29 Oct 2014 09:37:44 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (8.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:44 UTC +00:00], ["eng_name", "Marcus Campbell"], ["updated_at", Wed, 29 Oct 2014 09:37:44 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (9.0ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:44 UTC +00:00], ["eng_name", "Émile Peynaud"], ["updated_at", Wed, 29 Oct 2014 09:37:44 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (7.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:44 UTC +00:00], ["eng_name", "Bonita Saint"], ["updated_at", Wed, 29 Oct 2014 09:37:44 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (8.9ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:44 UTC +00:00], ["eng_name", "Donnie Wahlberg"], ["updated_at", Wed, 29 Oct 2014 09:37:44 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (8.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:44 UTC +00:00], ["eng_name", "E. J. Dionne"], ["updated_at", Wed, 29 Oct 2014 09:37:44 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (8.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:44 UTC +00:00], ["eng_name", "Henry Starr"], ["updated_at", Wed, 29 Oct 2014 09:37:44 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (9.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:44 UTC +00:00], ["eng_name", "Renee Roberts"], ["updated_at", Wed, 29 Oct 2014 09:37:44 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (8.7ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:44 UTC +00:00], ["eng_name", "Tony Dorsett"], ["updated_at", Wed, 29 Oct 2014 09:37:44 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (8.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:44 UTC +00:00], ["eng_name", "Camargo Guarnieri"], ["updated_at", Wed, 29 Oct 2014 09:37:44 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (9.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:44 UTC +00:00], ["eng_name", "Lena Söderberg"], ["updated_at", Wed, 29 Oct 2014 09:37:44 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (7.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:44 UTC +00:00], ["eng_name", "Andrew Mangan"], ["updated_at", Wed, 29 Oct 2014 09:37:44 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (8.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:44 UTC +00:00], ["eng_name", "Nakayama Hakudō"], ["updated_at", Wed, 29 Oct 2014 09:37:44 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (9.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:44 UTC +00:00], ["eng_name", "Lamont Reese"], ["updated_at", Wed, 29 Oct 2014 09:37:44 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (8.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:44 UTC +00:00], ["eng_name", "David Sainsbury, Baron Sainsbury of Turville"], ["updated_at", Wed, 29 Oct 2014 09:37:44 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (8.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:44 UTC +00:00], ["eng_name", "U-God"], ["updated_at", Wed, 29 Oct 2014 09:37:44 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (9.2ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:44 UTC +00:00], ["eng_name", "Olav V of Norway"], ["updated_at", Wed, 29 Oct 2014 09:37:44 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (8.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:44 UTC +00:00], ["eng_name", "Abdulaziz al-Omari"], ["updated_at", Wed, 29 Oct 2014 09:37:44 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (8.9ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:44 UTC +00:00], ["eng_name", "Bruce Ridpath"], ["updated_at", Wed, 29 Oct 2014 09:37:44 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (9.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:44 UTC +00:00], ["eng_name", "Jamie Quirk"], ["updated_at", Wed, 29 Oct 2014 09:37:44 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (8.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:44 UTC +00:00], ["eng_name", "Ben Nicholson"], ["updated_at", Wed, 29 Oct 2014 09:37:44 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (8.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:44 UTC +00:00], ["eng_name", "Simon Cadell"], ["updated_at", Wed, 29 Oct 2014 09:37:44 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (7.5ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:44 UTC +00:00], ["eng_name", "Luo Gan"], ["updated_at", Wed, 29 Oct 2014 09:37:44 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (9.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:44 UTC +00:00], ["eng_name", "Gwynn Parry Jones"], ["updated_at", Wed, 29 Oct 2014 09:37:44 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (9.8ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:44 UTC +00:00], ["eng_name", "Hana Mašková"], ["updated_at", Wed, 29 Oct 2014 09:37:44 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:44 UTC +00:00], ["eng_name", "Đorđe Jokić"], ["updated_at", Wed, 29 Oct 2014 09:37:44 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (8.6ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:44 UTC +00:00], ["eng_name", "Anita Colby"], ["updated_at", Wed, 29 Oct 2014 09:37:44 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (8.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:44 UTC +00:00], ["eng_name", "Solomon Hart"], ["updated_at", Wed, 29 Oct 2014 09:37:44 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (8.6ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:44 UTC +00:00], ["eng_name", "Tony Jarrett"], ["updated_at", Wed, 29 Oct 2014 09:37:44 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (8.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 29 Oct 2014 09:37:44 UTC +00:00], ["eng_name", "Margareta Keszeg"], ["updated_at", Wed, 29 Oct 2014 09:37:44 UTC +00:00], ["urdu_name", nil]]
+  [1m[35m (8.7ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "people" ("created_at", "eng_name", "updated_at", "urdu_name") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 29 Oct 2014 09:37:44 UTC +00:00], ["eng_name", "Eddie Jones"], ["updated_at", Wed, 29 Oct 2014 09:37:44 UTC +00:00], ["urdu_name", nil]]
+  [1m[36m (8.4ms)[0m  [1mCOMMIT[0m
+  Rendered cities/data.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 4498.3ms (Views: 12.0ms | ActiveRecord: 2072.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-29 14:37:44 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-29 14:37:44 +0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-29 14:37:44 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-29 14:37:44 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-29 14:37:44 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-29 14:37:44 +0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-29 14:37:44 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-29 14:37:44 +0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-29 14:41:00 +0500
+Processing by CitiesController#index as HTML
+  Rendered cities/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 9.1ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-29 14:41:00 +0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-29 14:41:00 +0500
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-10-29 14:41:00 +0500
+Served asset /cities.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-10-29 14:41:00 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-29 14:41:00 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-29 14:41:00 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-10-29 14:41:00 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-29 14:41:00 +0500
+Served asset /application.js - 304 Not Modified (1ms)
