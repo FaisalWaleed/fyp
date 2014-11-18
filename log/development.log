@@ -45272,3 +45272,65 @@ Migrating to CreatePeople (20141029082855)
 Migrating to CreateCategories (20141111094015)
 Migrating to CreateCollections (20141118074446)
   [1m[35m (0.3ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-18 15:54:05 +0500
+Connecting to database specified by database.yml
+Processing by CitiesController#index as HTML
+  Rendered cities/index.html.erb within layouts/application (25.2ms)
+Completed 200 OK in 146.1ms (Views: 69.7ms | ActiveRecord: 11.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-18 15:54:05 +0500
+Processing by CitiesController#index as HTML
+  Rendered cities/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 12.4ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 15:54:06 +0500
+Served asset /application.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-11-18 15:54:06 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/collections.css?body=1" for 127.0.0.1 at 2014-11-18 15:54:06 +0500
+Served asset /collections.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2014-11-18 15:54:06 +0500
+Served asset /categories.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 15:54:06 +0500
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-11-18 15:54:06 +0500
+Served asset /cities.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 15:54:06 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-11-18 15:54:06 +0500
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2014-11-18 15:54:06 +0500
+Served asset /categories.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-11-18 15:54:06 +0500
+Served asset /cities.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/collections.js?body=1" for 127.0.0.1 at 2014-11-18 15:54:06 +0500
+Served asset /collections.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 15:54:06 +0500
+Served asset /application.js - 304 Not Modified (41ms)
+Connecting to database specified by database.yml

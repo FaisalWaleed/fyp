@@ -6,7 +6,9 @@ class Collection < ActiveRecord::Base
 
   def self.import(file , category)
   	CSV.foreach(file.path,headers: true) do |row| 
-  		category.collections.create! row.to_hash 
+  		if(!find_by_name(row["name"]).present?)
+  			category.collections.create! row.to_hash 
+  		end
   	end
   end
 end
