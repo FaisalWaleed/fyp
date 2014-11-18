@@ -38,11 +38,11 @@ class CitiesController < ApplicationController
 
   def location
     #return render json: params[:text]
-
-    @a = City.all
+    @data = Collection.all
     @str = params[:text].to_s
-    @a.each do |f|     
-      @str = @str.gsub(/(#{f.english})/i, '<mark>'+f.english+'</mark>')
+    @data.each do |f|     
+      @temp = Collection.find_by_name(f.name).category.color
+      @str = @str.gsub(/(#{f.name})/i, '<mark style="background-color:'+@temp+'  ">'+f.name+'</mark>')
     end
   end
 
@@ -53,13 +53,13 @@ class CitiesController < ApplicationController
   require 'addressable/uri'
 
   apikey = "AIzaSyBlwk5eKfI3pzit3zF2hZOJoB21cJojfMw"
-  query = [{'id' => nil, 'name' => nil, 'type' => '/location/location'}]
+  query = [{'id' => nil, 'name' => nil, 'type' => '/location/country'}]
   l = 200
   url = Addressable::URI.parse('https://www.googleapis.com/freebase/v1/mqlread')
   url.query_values = {
         'query' => query.to_json,
         'key'=> apikey,
-        'id'=> 'ur',
+        'lang' => "/lang/en",
         'limit' => l
     }
   @topic = HTTParty.get(url, :format => :json)
@@ -78,7 +78,6 @@ query = [{'id' => nil, 'name' => nil, 'type' => '/people/person'}]
   url.query_values = {
         'query' => query.to_json,
         'key'=> apikey,
-        'id'=> 'ur',
         'limit' => l
     }
   @top = HTTParty.get(url, :format => :json)

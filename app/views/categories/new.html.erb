@@ -1,0 +1,21 @@
+<div class="container">  
+  <div class="row">
+    <div class="col-sm-6 col-md-4 col-md-offset-4">
+      <h1 class="text-center login-title">Add Categories</h1><br><br>
+      <div class="account-wall">
+      	<%= form_for @category do |new_cat| %>
+					<div>
+					    <%= new_cat.label :name %>
+					    <%= new_cat.text_field :name, class: "form-control"  %><br>
+					</div>
+					<div >
+				    <%= new_cat.label :color %>
+				     <%= new_cat.select :color, options_for_select([['Blue', 'Blue'], ['Red', 'Red'], ['Green', 'Green'],['Pink', 'Pink'], ['Yellow', 'Yellow'], ['Grey', 'Grey']]),{} ,class: "form-control" %> <br>
+					</div>
+					<div class="field"><%= new_cat.submit "Add Category", class: "btn btn-lg btn-block", style: "background-color:#666;color:white"  %></div>
+      
+				<% end %>    
+			</div>
+		</div>
+	</div>
+</div>

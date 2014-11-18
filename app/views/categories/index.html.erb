@@ -1,0 +1,30 @@
+<div class="container">  
+  <div class="row">
+    <div class="col-sm-6 col-md-4 col-md-offset-4">
+      <h1 class="text-center login-title">Categories</h1><br><br>
+      <div class="account-wall">
+      	<% if @categories.present? %>
+	      	<table class = 'table'>
+	      		<thead>
+	      			<th> Category</th>
+	      			<th> Calor</th>
+	      		</thead>
+						<% @categories.each do |c| %>
+							<tr>
+								<td><%= c.name %></td>
+								<td><%= c.color %></td>
+							</tr>
+						<%end %>
+					</table>
+				<%else%>
+					<h4> No Category Present</h4>
+				<% end %>
+
+				<%= form_tag new_category_path,:method => :get do %>
+				  <div><%= submit_tag "Add Category"   , class: "btn btn-primary btn-lg btn-block" %></div>
+				<% end -%>
+				
+			</div>
+		</div>
+	</div>
+</div>

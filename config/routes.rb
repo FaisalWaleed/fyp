@@ -1,7 +1,15 @@
 Fyp::Application.routes.draw do
 
-  root :to => 'cities#index'
+  get "collections/index"
 
+  get "collections/new"
+
+  get "categories/index"
+
+  get "categories/new"
+
+  root :to => 'cities#index'
+  resources :categories
   resources :cities do
     collection do
       post 'translate'
@@ -11,7 +19,12 @@ Fyp::Application.routes.draw do
       get 'people'
     end
   end
-
+  resources :collections do
+    collection do
+      get 'upload'
+      post 'import'
+    end
+  end
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
