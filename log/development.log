@@ -45334,3 +45334,304 @@ Served asset /collections.js - 304 Not Modified (1ms)
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 15:54:06 +0500
 Served asset /application.js - 304 Not Modified (41ms)
 Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-18 16:06:43 +0500
+Processing by CitiesController#index as HTML
+  Rendered cities/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 18.4ms (Views: 10.5ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 16:06:43 +0500
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-11-18 16:06:43 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2014-11-18 16:06:43 +0500
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-11-18 16:06:43 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 16:06:43 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-11-18 16:06:43 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/collections.css?body=1" for 127.0.0.1 at 2014-11-18 16:06:43 +0500
+Served asset /collections.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 16:06:43 +0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2014-11-18 16:06:43 +0500
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-11-18 16:06:43 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/collections.js?body=1" for 127.0.0.1 at 2014-11-18 16:06:43 +0500
+Served asset /collections.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 16:06:43 +0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-18 16:07:38 +0500
+Processing by CitiesController#index as HTML
+  Rendered cities/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 7.0ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 16:07:38 +0500
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2014-11-18 16:07:38 +0500
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-11-18 16:07:38 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-11-18 16:07:38 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/collections.css?body=1" for 127.0.0.1 at 2014-11-18 16:07:38 +0500
+Served asset /collections.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 16:07:38 +0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 16:07:38 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-11-18 16:07:38 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2014-11-18 16:07:38 +0500
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-11-18 16:07:38 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/collections.js?body=1" for 127.0.0.1 at 2014-11-18 16:07:38 +0500
+Served asset /collections.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 16:07:38 +0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/cities/translate" for 127.0.0.1 at 2014-11-18 16:07:45 +0500
+Processing by CitiesController#translate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"y7faxDvVTIPbnU+7RwbLu5AovnnVsMa579kJkP+EYRM=", "text"=>{"english"=>"I am in lahore"}, "commit"=>"Tag"}
+  Rendered cities/translate.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 5251.0ms (Views: 35.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 16:07:50 +0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/collections.css?body=1" for 127.0.0.1 at 2014-11-18 16:07:50 +0500
+Served asset /collections.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-11-18 16:07:50 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2014-11-18 16:07:50 +0500
+Served asset /categories.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 16:07:50 +0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-11-18 16:07:50 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 16:07:50 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-11-18 16:07:50 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/collections.js?body=1" for 127.0.0.1 at 2014-11-18 16:07:50 +0500
+Served asset /collections.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-11-18 16:07:50 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2014-11-18 16:07:50 +0500
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 16:07:50 +0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-18 16:08:43 +0500
+Processing by CitiesController#index as HTML
+  Rendered cities/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 17.7ms (Views: 9.0ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-11-18 16:08:44 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 16:08:44 +0500
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2014-11-18 16:08:44 +0500
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/collections.css?body=1" for 127.0.0.1 at 2014-11-18 16:08:44 +0500
+Served asset /collections.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 16:08:44 +0500
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-11-18 16:08:44 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 16:08:44 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-11-18 16:08:44 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2014-11-18 16:08:44 +0500
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-11-18 16:08:44 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/collections.js?body=1" for 127.0.0.1 at 2014-11-18 16:08:44 +0500
+Served asset /collections.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 16:08:44 +0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/cities/translate" for 127.0.0.1 at 2014-11-18 16:08:53 +0500
+Processing by CitiesController#translate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"y7faxDvVTIPbnU+7RwbLu5AovnnVsMa579kJkP+EYRM=", "text"=>{"english"=>"I am in Lahore"}, "commit"=>"Tag"}
+  [1m[36mCollection Load (0.5ms)[0m  [1mSELECT "collections".* FROM "collections" [0m
+  [1m[35mCollection Load (0.9ms)[0m  SELECT "collections".* FROM "collections" WHERE "collections"."name" = 'Lahore' LIMIT 1
+  [1m[36mCategory Load (0.3ms)[0m  [1mSELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1[0m
+  [1m[35mCollection Load (1.3ms)[0m  SELECT "collections".* FROM "collections" WHERE "collections"."name" = 'Karachi' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1[0m
+  [1m[35mCollection Load (0.5ms)[0m  SELECT "collections".* FROM "collections" WHERE "collections"."name" = 'Islamabad' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1[0m
+  [1m[35mCollection Load (0.4ms)[0m  SELECT "collections".* FROM "collections" WHERE "collections"."name" = 'Faisalabad' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1[0m
+  [1m[35mCollection Load (0.3ms)[0m  SELECT "collections".* FROM "collections" WHERE "collections"."name" = 'Murree' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1[0m
+Redirected to http://localhost:3000/cities/location?text=I+am+in+Lahore
+Completed 302 Found in 132.9ms (ActiveRecord: 8.7ms)
+
+
+Started GET "/cities/location?text=I+am+in+Lahore" for 127.0.0.1 at 2014-11-18 16:08:53 +0500
+Processing by CitiesController#location as HTML
+  Parameters: {"text"=>"I am in Lahore"}
+  [1m[35mCollection Load (0.5ms)[0m  SELECT "collections".* FROM "collections" 
+  [1m[36mCollection Load (0.7ms)[0m  [1mSELECT "collections".* FROM "collections" WHERE "collections"."name" = 'Lahore' LIMIT 1[0m
+  [1m[35mCategory Load (0.5ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1
+  [1m[36mCollection Load (0.4ms)[0m  [1mSELECT "collections".* FROM "collections" WHERE "collections"."name" = 'Karachi' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1
+  [1m[36mCollection Load (0.4ms)[0m  [1mSELECT "collections".* FROM "collections" WHERE "collections"."name" = 'Islamabad' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1
+  [1m[36mCollection Load (0.3ms)[0m  [1mSELECT "collections".* FROM "collections" WHERE "collections"."name" = 'Faisalabad' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1
+  [1m[36mCollection Load (0.4ms)[0m  [1mSELECT "collections".* FROM "collections" WHERE "collections"."name" = 'Murree' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1
+  Rendered cities/location.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 26.4ms (Views: 8.6ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2014-11-18 16:08:53 +0500
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/collections.css?body=1" for 127.0.0.1 at 2014-11-18 16:08:53 +0500
+Served asset /collections.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 16:08:53 +0500
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-11-18 16:08:53 +0500
+Served asset /cities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 16:08:53 +0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-11-18 16:08:53 +0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 16:08:53 +0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-11-18 16:08:53 +0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2014-11-18 16:08:53 +0500
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-11-18 16:08:53 +0500
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/collections.js?body=1" for 127.0.0.1 at 2014-11-18 16:08:53 +0500
+Served asset /collections.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 16:08:53 +0500
+Served asset /application.js - 304 Not Modified (0ms)

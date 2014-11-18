@@ -20,7 +20,7 @@ class CitiesController < ApplicationController
   def translate
     require 'bing_translator'
 
-    if params[:commit] == 'Location'
+    if params[:commit] == 'Tag'
       return redirect_to location_cities_path(text: params[:text][:english])
     end
 
