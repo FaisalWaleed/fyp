@@ -47268,3 +47268,81 @@ Processing by CitiesController#location as HTML
   [1m[35mCACHE (0.0ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1
   Rendered cities/location.html.erb within layouts/application (0.1ms)
 Completed 200 OK in 26.6ms (Views: 10.7ms | ActiveRecord: 4.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-17 15:07:35 +0500
+Processing by CitiesController#index as HTML
+  Rendered cities/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 20.0ms (Views: 12.1ms | ActiveRecord: 1.3ms)
+
+
+Started POST "/cities/translate" for 127.0.0.1 at 2014-12-17 15:07:46 +0500
+Processing by CitiesController#translate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QNHHOEZGTcGrrv5ooYX7fTg1xh0iIbPF1s9ulDLEbGQ=", "text"=>{"english"=>"my birthday is 12/12/2009"}, "commit"=>"Tag"}
+  [1m[36mCollection Load (0.2ms)[0m  [1mSELECT "collections".* FROM "collections" [0m
+  [1m[35mCollection Load (0.4ms)[0m  SELECT "collections".* FROM "collections" WHERE "collections"."name" = 'Lahore' LIMIT 1
+  [1m[36mCategory Load (0.4ms)[0m  [1mSELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1[0m
+  [1m[35mCollection Load (0.9ms)[0m  SELECT "collections".* FROM "collections" WHERE "collections"."name" = 'Karachi' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1[0m
+  [1m[35mCollection Load (0.5ms)[0m  SELECT "collections".* FROM "collections" WHERE "collections"."name" = 'Islamabad' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1[0m
+  [1m[35mCollection Load (0.3ms)[0m  SELECT "collections".* FROM "collections" WHERE "collections"."name" = 'Faisalabad' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1[0m
+  [1m[35mCollection Load (0.4ms)[0m  SELECT "collections".* FROM "collections" WHERE "collections"."name" = 'Murree' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1[0m
+Redirected to http://localhost:3000/cities/location?text=my+birthday+is+12%2F12%2F2009
+Completed 302 Found in 78.0ms (ActiveRecord: 8.1ms)
+
+
+Started GET "/cities/location?text=my+birthday+is+12%2F12%2F2009" for 127.0.0.1 at 2014-12-17 15:07:46 +0500
+Processing by CitiesController#location as HTML
+  Parameters: {"text"=>"my birthday is 12/12/2009"}
+  [1m[35mCollection Load (0.3ms)[0m  SELECT "collections".* FROM "collections" 
+  [1m[36mCollection Load (0.2ms)[0m  [1mSELECT "collections".* FROM "collections" WHERE "collections"."name" = 'Lahore' LIMIT 1[0m
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1
+  [1m[36mCollection Load (0.2ms)[0m  [1mSELECT "collections".* FROM "collections" WHERE "collections"."name" = 'Karachi' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1
+  [1m[36mCollection Load (0.2ms)[0m  [1mSELECT "collections".* FROM "collections" WHERE "collections"."name" = 'Islamabad' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1
+  [1m[36mCollection Load (0.2ms)[0m  [1mSELECT "collections".* FROM "collections" WHERE "collections"."name" = 'Faisalabad' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1
+  [1m[36mCollection Load (0.2ms)[0m  [1mSELECT "collections".* FROM "collections" WHERE "collections"."name" = 'Murree' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1
+  Rendered cities/location.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 17.5ms (Views: 10.0ms | ActiveRecord: 1.4ms)
+
+
+Started POST "/cities/translate" for 127.0.0.1 at 2014-12-17 15:08:16 +0500
+Processing by CitiesController#translate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QNHHOEZGTcGrrv5ooYX7fTg1xh0iIbPF1s9ulDLEbGQ=", "text"=>{"english"=>"my birthday is 12.12.2009"}, "commit"=>"Tag"}
+  [1m[36mCollection Load (0.3ms)[0m  [1mSELECT "collections".* FROM "collections" [0m
+  [1m[35mCollection Load (1.5ms)[0m  SELECT "collections".* FROM "collections" WHERE "collections"."name" = 'Lahore' LIMIT 1
+  [1m[36mCategory Load (0.3ms)[0m  [1mSELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1[0m
+  [1m[35mCollection Load (0.7ms)[0m  SELECT "collections".* FROM "collections" WHERE "collections"."name" = 'Karachi' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1[0m
+  [1m[35mCollection Load (1.1ms)[0m  SELECT "collections".* FROM "collections" WHERE "collections"."name" = 'Islamabad' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1[0m
+  [1m[35mCollection Load (0.4ms)[0m  SELECT "collections".* FROM "collections" WHERE "collections"."name" = 'Faisalabad' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1[0m
+  [1m[35mCollection Load (0.4ms)[0m  SELECT "collections".* FROM "collections" WHERE "collections"."name" = 'Murree' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1[0m
+Redirected to http://localhost:3000/cities/location?text=my+birthday+is+12.12.2009
+Completed 302 Found in 19.8ms (ActiveRecord: 4.7ms)
+
+
+Started GET "/cities/location?text=my+birthday+is+12.12.2009" for 127.0.0.1 at 2014-12-17 15:08:16 +0500
+Processing by CitiesController#location as HTML
+  Parameters: {"text"=>"my birthday is 12.12.2009"}
+  [1m[35mCollection Load (1.0ms)[0m  SELECT "collections".* FROM "collections" 
+  [1m[36mCollection Load (0.4ms)[0m  [1mSELECT "collections".* FROM "collections" WHERE "collections"."name" = 'Lahore' LIMIT 1[0m
+  [1m[35mCategory Load (0.4ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1
+  [1m[36mCollection Load (0.3ms)[0m  [1mSELECT "collections".* FROM "collections" WHERE "collections"."name" = 'Karachi' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1
+  [1m[36mCollection Load (0.4ms)[0m  [1mSELECT "collections".* FROM "collections" WHERE "collections"."name" = 'Islamabad' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1
+  [1m[36mCollection Load (0.4ms)[0m  [1mSELECT "collections".* FROM "collections" WHERE "collections"."name" = 'Faisalabad' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1
+  [1m[36mCollection Load (0.4ms)[0m  [1mSELECT "collections".* FROM "collections" WHERE "collections"."name" = 'Murree' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1
+  Rendered cities/location.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 26.5ms (Views: 10.3ms | ActiveRecord: 3.3ms)
